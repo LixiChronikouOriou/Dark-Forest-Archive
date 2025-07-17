@@ -1,0 +1,547 @@
+
+#
+# Drones
+#
+
+outfit "Alteran Drone Launcher"
+	category "Secondary Weapons"
+	cost 509000
+	thumbnail "outfit/alteran drone"
+	"mass" 6
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	"alteran drone capacity" 20
+	weapon
+		sprite "projectile/drone/alteran drone"
+			"frame rate" 4
+			"random start frame"
+		sound "typhoon"
+		ammo "Alteran Drone"
+		icon "icon/drone"
+		"fire effect" "torpedo fire"
+		"hit effect" "drone impact"
+		"die effect" "small explosion"
+		"inaccuracy" 2
+		"velocity" 2
+		"lifetime" 10000
+		"reload" 100
+		"burst count" 2
+		"burst reload" 4
+		"firing energy" 10
+		"firing fuel" 2
+		"firing heat" 1
+		"acceleration" 1
+		"drag" .1
+		"homing" 4
+		"piercing" .75
+		"shield damage" 10
+		"hull damage" 240
+		"hit force" 5
+		"missile strength" 18
+		"turn" 100
+		"tracking" 1
+		"infrared tracking" 1
+		"optical tracking" 1
+		"radar tracking" 1
+		"phasing"
+	description "Alteran Drone weapons are present on almost all Alteran ships as they are powerful weapons, independent of a ship's loadout. The drone itself is more of a missile, equippped with advanced homing and tracking systems. What makes these missiles powerful is their ability to penetrate shields with minimal energy loss, resulting in hull damage almost independent of the target's shields."
+	description "The Drone Launcher holds 20 Drones and 2 drones are launched as twins in quick succession, as a single drone is an easy target for AM turrets. Multiple launchers will fire simulataneously, to further concentrate the missiles. Launching all 20 drones will use 40 of fuel to charge the drones (2 per drone)."
+
+outfit "Alteran Drone Bay"
+	category "Secondary Weapons"
+	cost 6810000
+	thumbnail "outfit/alteran drone"
+	"mass" 28
+	"outfit space" -56
+	"weapon capacity" -56
+	"gun ports" -1
+	"fuel capacity" 100
+	"alteran drone capacity" 144
+	weapon
+		sprite "projectile/drone/alteran drone"
+			"frame rate" 4
+			"random start frame"
+		sound "typhoon"
+		ammo "Alteran Drone"
+		icon "icon/drone"
+		"fire effect" "torpedo fire"
+		"hit effect" "drone impact"
+		"die effect" "small explosion"
+		"inaccuracy" 2
+		"velocity" 2
+		"lifetime" 10000
+		"reload" 18
+		"burst count" 18
+		"burst reload" 1
+		"firing energy" 10
+		"firing fuel" 2
+		"firing heat" 1
+		"acceleration" 2
+		"drag" .2
+		"homing" 3
+		"piercing" .75
+		"shield damage" 10
+		"hull damage" 240
+		"hit force" 5
+		"missile strength" 18
+		"turn" 100
+		"tracking" 1
+		"infrared tracking" 1
+		"optical tracking" 1
+		"radar tracking" 1
+		"phasing"
+	description "Alteran Drone weapons are present on almost all Alteran ships as they are powerful weapons, independent of a ship's loadout. The drone itself is more of a missile, equippped with advanced homing and tracking systems. What makes these missiles powerful is their ability to penetrate shields with minimal energy loss, resulting in hull damage almost independent of the target's shields."
+	description "For larger vessels, the simple launchers are inefficient, the Military has opted to use larger Drone bays, launching a swarm of 18 drones over a short time period, overwhelming most AM systems. An Alteran Drone Bay is capable of storing up to 144 separate missiles, and has fuel storage built-in, as the fuel used to power the drones is no longer negligible with such a large number of launches."
+
+outfit "Alteran Drone"
+	plural "Alteran Drones"
+	category "Ammunition"
+	cost 7600
+	thumbnail "outfit/alteran drone"
+	"mass" .1
+	"alteran drone capacity" -1
+	description "These small missiles are used as ammunition for the various Alteran Drone Launchers."
+
+outfit "Alteran Drone Storage"
+	category "Ammunition"
+	cost 41000
+	thumbnail "outfit/unknown"
+	#thumbnail "outfit/alteran drone storage"
+	"outfit space" -20
+	"mass" 5
+	"alteran drone capacity" 108
+	description "Particularly useful when equipping a larger vessel with simple Drone Launchers, the Drone Storage adds much needed capacity for 108 additional missiles."
+
+effect "drone fire"
+	sprite "effect/drone/drone fire"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 15
+
+effect "drone impact"
+	sprite "effect/drone/drone impact"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 3
+	"random angle" 360
+	"random spin" 360
+	"random velocity" 4
+	"velocity scale" -.0001
+
+#
+# Pulse
+#
+
+outfit "Alteran Singular Pulse"
+	category "Guns"
+	cost 768000
+	thumbnail "outfit/alteran singular pulse"
+	"mass" 13
+	"outfit space" -13
+	"weapon capacity" -13
+	"gun ports" -1
+	weapon
+		sprite "projectile/pulse/alteran pulse"
+			"frame rate" 3
+		sound "ion"
+		"hit effect" "alteran pulse impact"
+		"inaccuracy" .1
+		"velocity" 30
+		"lifetime" 50
+		"reload" 30
+		"firing energy" 64
+		"firing heat" 67
+		"hit force" 3.5
+		#"shield damage" 69
+		"shield damage" 64
+		#"hull damage" 83
+		"hull damage" 78
+		#"heat damage" 57
+		"heat damage" 51
+	description "Alteran Pulse weaponry has existed for generations and is standard for Alteran vessels. Improvements have been made over time, with the current iteration being vastly superior to the 1st generation, while following the same constraints to allow for the retrofitting of already installed outfits."
+	description "The Singular Pulse's long range is ideal for smaller vessels wanting to keep their distance from the enemy."
+
+outfit "Alteran Pulse Turret"
+	category "Turrets"
+	cost 965000
+	thumbnail "outfit/alteran pulse turret"
+	"mass" 16
+	"outfit space" -16
+	"weapon capacity" -16
+	"turret mounts" -1
+	weapon
+		sprite "projectile/pulse/alteran pulse"
+			"frame rate" 3
+		"hardpoint sprite" "hardpoint/bombardment turret"
+		"hardpoint offset" 10.
+		sound "ion"
+		"hit effect" "alteran pulse impact"
+		"inaccuracy" .1
+		"turret turn" 4.0
+		"velocity" 30
+		"lifetime" 40
+		"reload" 30
+		"firing energy" 64
+		"firing heat" 67
+		"hit force" 3.5
+		"shield damage" 64
+		"hull damage" 78
+		"heat damage" 51
+	description "The standard Alteran Pulse turret mounts a Singular Pulse gun on a turret with a relatively fast turn rate. As such, these turrets are ideal for installation on agile warships and smaller vessels in general."
+
+outfit "Alteran Tri-Pulse Turret"
+	category "Turrets"
+	cost 3370000
+	thumbnail "outfit/alteran tri-pulse turret"
+	"mass" 43
+	"outfit space" -43
+	"weapon capacity" -43
+	"turret mounts" -1
+	weapon
+		sprite "projectile/pulse/alteran pulse"
+			"frame rate" 3
+		"hardpoint sprite" "hardpoint/bombardment turret"
+		"hardpoint offset" 10.
+		sound "ion"
+		"hit effect" "alteran pulse impact"
+		"inaccuracy" .1
+		"turret turn" 2.3
+		"velocity" 30
+		"lifetime" 40
+		"reload" 10
+		"burst count" 3
+		"burst reload" 5
+		"firing energy" 64
+		"firing heat" 67
+		"hit force" 3.5
+		"shield damage" 64
+		"hull damage" 78
+		"heat damage" 51
+	description "To use the limited amount hardpoints more efficiently, Alteran Military engineers decided to mount 3 Pulse guns on a single turret. The Alteran Tri-Pulse Turret fires 3-shot bursts where its triplet barrels shoot in quick succession."
+	description "Although a Tri-Pulse's raw damage is weaker than that of a Dual Plasma Turret, it more than doubles the range, giving it the absolute advantage in certain situations."
+
+effect "alteran pulse impact"
+	sprite "effect/pulse/alteran pulse impact"
+		"no repeat"
+		"frame rate" 5
+	"lifetime" 3
+	"random angle" 360
+	"random spin" 360
+	"random velocity" 4
+	"velocity scale" -.0001
+
+#
+# Plasma Beams
+#
+
+outfit "Alteran Plasma Beam"
+	category "Guns"
+	cost 1490000
+	thumbnail "outfit/alteran plasma beam"
+	"mass" 21
+	"outfit space" -21
+	"weapon capacity" -21
+	"gun ports" -1
+	weapon
+		sprite "projectile/plasma/alteran plasma"
+			"frame rate" 4.0
+			"random start frame"
+		sound "alteran plasma"
+		"hit effect" "drone impact"
+		"inaccuracy" 0.0
+		"velocity" 500
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 2.9
+		"firing heat" 7.8
+		"shield damage" 6.5
+		"hull damage" 2.4
+		"heat damage" 9.6
+	description "With the advancement in Alteran shield technology, the need for shield focussed weaponry arose. The Alteran Plasma Beam was a direct result of this and has no real weakness apart from its short range."
+
+outfit "Alteran Plasma Turret"
+	category "Turrets"
+	cost 3820000
+	thumbnail "outfit/alteran plasma turret"
+	"mass" 45
+	"outfit space" -45
+	"weapon capacity" -45
+	"turret mounts" -1
+	weapon
+		sprite "projectile/plasma/2x alteran plasma"
+			"frame rate" 4.0
+			"random start frame"
+		"hardpoint sprite" "hardpoint/dual sunbeam turret old"
+		"hardpoint offset" 12.
+		sound "alteran plasma"
+		"hit effect" "drone impact"
+		"inaccuracy" 0.0
+		"turret turn" 3.5
+		"velocity" 500
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 5.8
+		"firing heat" 15.6
+		"shield damage" 13
+		"hull damage" 4.8
+		"heat damage" 19.2
+	description "The Alteran Plasma Turrets dual mount Alteran Plasma Beam Weapons to increase damage per space used. However, by using the same beam emitters, the turrets also suffer from a short range. Within their ideal range, these turret's shield damage is devastating."
+
+outfit "Alteran Heavy Plasma"
+	category "Guns"
+	cost 2970000
+	thumbnail "outfit/alteran heavy plasma"
+	"mass" 37
+	"outfit space" -37
+	"weapon capacity" -37
+	"gun ports" -1
+	weapon
+		sprite "projectile/plasma/alteran heavy plasma"
+			"frame rate" 4.0
+			"random start frame"
+		sound "alteran plasma"
+		"hit effect" "drone impact"
+		"inaccuracy" 0.05
+		"velocity" 700
+		"lifetime" 1
+		"reload" 2
+		"burst count" 15
+		"burst reload" 1
+		"firing energy" 12	
+		"firing heat" 30.4
+		"shield damage" 17.9
+		"hull damage" 14.3
+		"heat damage" 42
+	description "Developed as part of the most recent fleet modernization project, Alteran Heavy Plasma is the result of downscaling the spinal beam built into the defensive satellites. This was done because the older Plasma Beams suffered from a relatively short range. Unlike the standard Plasma Beams, the Heavy Plasma fires in short bursts, rather than continuously, which allowed for hotter and more powerful beams."
+
+outfit "Alteran Heavy Plasma Turret"
+	category "Turrets"
+	cost 3560000
+	thumbnail "outfit/alteran heavy plasma turret"
+	"mass" 42
+	"outfit space" -42
+	"weapon capacity" -42
+	"turret mounts" -1
+	weapon
+		sprite "projectile/plasma/alteran heavy plasma"
+			"frame rate" 4.0
+			"random start frame"
+		"hardpoint sprite" "hardpoint/sunbeam turret old"
+		"hardpoint offset" 12.
+		sound "alteran plasma"
+		"hit effect" "drone impact"
+		"inaccuracy" 0.05
+		"turret turn" 3.0
+		"velocity" 700
+		"lifetime" 1
+		"reload" 2
+		"burst count" 15
+		"burst reload" 1
+		"firing energy" 12	
+		"firing heat" 30.4
+		"shield damage" 17.9
+		"hull damage" 14.3
+		"heat damage" 42
+	description "As turrets are generally preferred on larger vessels, the Heavy Plasma can also be mounted on a turret. A single heavy Plasma Turret outranges and almost overpowers the older Plasma Turrets which mount two beam emitters."
+
+outfit "Alteran Satellite Beam"
+	category "Secondary Weapons"
+	cost 100000000
+	thumbnail "outfit/satellite plasma beam"
+	"mass" 250
+	"outfit space" -250
+	"weapon capacity" -250
+	"gun ports" -1
+	"spinal mount" -1
+	weapon
+		sprite "projectile/plasma/alteran satellite plasma"
+			"frame rate" 1.3 
+		icon "icon/nuke"
+		sound "alteran satellite plasma"
+		"hit effect" "drone impact"
+		"hit effect" "satellite plasma"
+		"hit effect" "dragonflame debris"
+		"inaccuracy" 0.0
+		"velocity" 2500
+		"lifetime" 1
+		"reload" 5
+		"burst count" 100
+		"burst reload" 1
+		"firing energy" 2500
+		"firing heat" 2000
+		"shield damage" 2000
+		"hull damage" 4000
+		"heat damage" 10000
+	description "The Alterans developed a weapon of massive caliber, specifically for their satellite defence system, the Titan Defensive System (TDS). The damage is insane, even the  Alteran Drone Weapons can't be compared to this. It forms plasma into a beam that burns through any kind of shielding in no time and without shields, they just rip apart nearly any ship before you even notice. However, the massive amounts of energy required make them practically useless without a ZPM, dual wielding one of these is out of the question."
+
+effect "satellite plasma"
+	sprite "effect/explosion/large"
+		"no repeat"
+		"frame rate" 20
+	"lifetime" 25
+	"random frame rate" 20
+	"random spin" 5
+	"random angle" .5
+	"random velocity" 40
+	"velocity scale" 0.002
+
+#
+# Anti-Missile
+#
+
+outfit "Alteran Light AM"
+	category "Turrets"
+	cost 1120000
+	thumbnail "outfit/alteran light anti-missile"
+	"mass" 18
+	"outfit space" -18
+	"weapon capacity" -18
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/wanderer anti-missile old"
+		"hardpoint offset" 6.
+		"hit effect" "alteran anti-missile"
+		"anti-missile" 17
+		"velocity" 500
+		"lifetime" 1
+		"reload" 15
+		"burst count" 2
+		"burst reload" 7
+		"firing energy" 30
+	description "The Alteran Light Anti-Missile system was designed to effectively take down singular missiles. Firing in bursts proved to have the highest success rate against few projectiles, but can be problematic when either timing or damage don't work out."
+
+outfit "Alteran Heavy AM"
+	category "Turrets"
+	cost 2740000
+	thumbnail "outfit/alteran heavy anti-missile"
+	"mass" 38
+	"outfit space" -38
+	"weapon capacity" -38
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/wanderer anti-missile old"
+		"hardpoint offset" 6.
+		"hit effect" "alteran anti-missile"
+		"anti-missile" 17
+		"velocity" 500
+		"lifetime" 1
+		"reload" 5
+		"firing energy" 30
+	description "For their heavy anti-missile system, the Alteran Military went for a constant rapid-fire system using the same core as the light AM system. To facilitate the non-stop firing, the turret alternates between 3 guns mounted together."
+
+effect "alteran anti-missile"
+	sprite "effect/anti-missile/alteran anti-missile"
+		"no repeat"
+		"frame rate" 3
+	sound "quarg anti-missile"
+	"lifetime" 21
+	"velocity scale" 1
+
+#
+# Shock Turret
+#
+
+outfit "Alteran Shock Turret"
+	category "Turrets"
+	cost 6408000
+	thumbnail "outfit/alteran shock turret"
+	"mass" 66
+	"outfit space" -66
+	"weapon capacity" -66
+	"turret mounts" -1
+	weapon
+		sprite "projectile/Rail Burst"
+			"frame rate" 1
+		"hardpoint sprite" "hardpoint/shock turret"
+		"hardpoint offset" 15.
+		sound "plasma"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" 0
+		"turret turn" 1.6
+		"velocity" 20
+		"lifetime" 80
+		"reload" 50
+		"firing energy" 370
+		"firing heat" 240
+		"hit force" 145
+		"shield damage" 321
+		"hull damage" 199
+		"cluster"
+		"disruption damage" 11.0
+		"ion damage" 4.9
+		"homing" 4
+		"acceleration" 3
+		"turn" 1.5
+		"drag" 0.1
+		"tracking" 0.5
+	description "In terms of raw damage, the Alteran Shock Turret is quite underwhelming. But the combination of disruption and ion damage makes it a great support weapon, particularly powerful together with hull-focussed weaponry. It fires relatively slow shots with a slight homing effect and is capable of hitting targets at long-range."
+
+#
+# Gauss Cannon
+#
+
+outfit "Alteran Gauss Cannon"
+	category "Secondary Weapons"
+	cost 4750000
+	thumbnail "outfit/alteran gauss cannon"
+	"mass" 54
+	"outfit space" -54
+	"weapon capacity" -54
+	"energy capacity" 1600
+	"gun ports" -1
+	"railgun slug capacity" 100
+	weapon
+		sprite "projectile/detainer"
+			"frame rate" 2.5
+		sound "detainer"
+		icon "icon/rail gun"
+		ammo "Railgun Slug"
+		"hit effect" "detainer impact" 3
+		"hit effect" "detainer smoke" 5
+		"live effect" "detainer sparks" 50
+		"inaccuracy" .2
+		"velocity" 32
+		"lifetime" 140
+		"reload" 90
+		"firing energy" 535
+		"firing force" 320
+		"firing heat" 283
+		"hit force" 320
+		"shield damage" 550
+		"hull damage" 2230
+	description "The Alteran Gauss Cannon is a hull-focussed long range weapon. It outranges all Alteran weaponry other than the drones and is capable of keeping the enemy at a distance with its high impact. They are typically equipped together with Shock turrets, dealing substantial hull damage while the shields are still up."
+
+outfit "Alteran Gauss Turret"
+	category "Secondary Weapons"
+	cost 5830000
+	thumbnail "outfit/alteran gauss turret"
+	"mass" 59
+	"outfit space" -59
+	"weapon capacity" -59
+	"energy capacity" 1600
+	"turret mounts" -1
+	"railgun slug capacity" 100
+	weapon
+		sprite "projectile/detainer"
+			"frame rate" 2.5
+		"hardpoint sprite" "hardpoint/annihilator turret"
+		"hardpoint offset" 15.
+		sound "detainer"
+		icon "icon/rail gun"
+		ammo "Railgun Slug"
+		"hit effect" "detainer impact" 3
+		"hit effect" "detainer smoke" 5
+		"live effect" "detainer sparks" 50
+		"inaccuracy" .2
+		"turret turn" 1.0
+		"velocity" 32
+		"lifetime" 140
+		"reload" 90
+		"firing energy" 535
+		"firing force" 320
+		"firing heat" 283
+		"hit force" 320
+		"shield damage" 550
+		"hull damage" 2230
+	description "Due to its size, mounting Gauss Cannons on turrets proved to be much more effective than creating large but agile ships. The Gauss Turret's slow turning rate is unproblematic, as the ideal target are larger vessels at mid or long-range."

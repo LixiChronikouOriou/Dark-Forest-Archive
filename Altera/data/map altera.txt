@@ -1,0 +1,3432 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+# 
+# Regional Attributes
+# "inner altera", "outer altera", "central rim", "lantean cluster", "draconic cluster", "draconic rim", "borean cluster", "ember line",
+# 
+# Planetary Attributes 
+# "mining", "research", "factory", "farming", "fishing", "military", "tourism", "retirement", "frontier", "oil", "draconium",
+# "station", "moon", "urban",
+#
+
+system Acidalia
+	pos 937.028 335.349
+	government Altera
+	attributes "draconic rim"
+	habitable 2372.76
+	link Menus
+	link Ophelia
+	link Rosalia
+	asteroids "small rock" 7 3.21
+	asteroids "medium rock" 6 3.81
+	asteroids "large rock" 11 2.13
+	asteroids "large metal" 1 3.45
+	trade Clothing 290
+	trade Electronics 750
+	trade Equipment 490
+	trade Food 240
+	trade "Heavy Metals" 760
+	trade Industrial 630
+	trade "Luxury Goods" 1160
+	trade Medical 710
+	trade Metal 290
+	trade Plastic 310
+	fleet "Small Alteran Merchant" 1300
+	fleet "Large Alteran Merchant" 2400
+	fleet "Alteran Corporate" 4000
+	fleet "Alteran Surveillance" 750
+	fleet "Small Alteran Navy" 1400
+	fleet "Large Alteran Navy" 3400
+	fleet "Small Alteran Logistics" 3300
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/cloud8
+		distance 299
+		period 42.4561
+		object
+			sprite planet/dust5
+			distance 154
+			period 23.094
+	object
+		sprite planet/rock14
+		distance 661.61
+		period 139.745
+	object
+		sprite planet/gas16
+		distance 1476.5
+		period 465.89
+		object
+			sprite planet/dust7
+			distance 211
+			period 16.1332
+		object
+			sprite planet/rock7
+			distance 352
+			period 34.7625
+	object
+		sprite planet/gas13
+		distance 3074.06
+		period 1399.59
+		object
+			sprite planet/ice7
+			distance 293
+			period 14.1583
+		object
+			sprite planet/dust0
+			distance 428
+			period 24.9963
+
+system Adragon
+	pos 890.131 272.707
+	government Altera
+	attributes "draconic cluster"
+	habitable 320
+	link Deliorum
+	link Elemira
+	link "Luminus Draconem"
+	link Menus
+	asteroids "small rock" 3 4.6632
+	asteroids "medium rock" 21 2.6448
+	asteroids "large rock" 12 3.9672
+	asteroids "small metal" 2 3.7932
+	asteroids "medium metal" 5 2.6448
+	asteroids "large metal" 8 5.0112
+	trade Clothing 340
+	trade Electronics 740
+	trade Equipment 570
+	trade Food 350
+	trade "Heavy Metals" 810
+	trade Industrial 750
+	trade "Luxury Goods" 1230
+	trade Medical 640
+	trade Metal 330
+	trade Plastic 410
+	fleet "Small Alteran Merchant" 900
+	fleet "Large Alteran Merchant" 1500
+	fleet "Alteran Corporate" 2800
+	fleet "Alteran Surveillance" 750
+	fleet "Small Alteran Navy" 1100
+	fleet "Large Alteran Navy" 2000
+	fleet "Small Alteran Logistics" 2700
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/lava7
+		distance 140.89
+		period 37.3943
+	object
+		sprite planet/gas17
+		distance 595.33
+		period 324.804
+	object
+		sprite planet/desert9
+		distance 865.58
+		period 569.437
+	object
+		sprite planet/gas13
+		distance 1715.94
+		period 1589.42
+		object
+			sprite planet/ice8
+			distance 273
+			period 12.7337
+
+system Akasia
+	pos 530.014 51.6198
+	government Altera
+	attributes "borean cluster"
+	habitable 425.92
+	link Boreas
+	link Silva
+	asteroids "small rock" 13 9.09
+	asteroids "medium rock" 45 8.37
+	asteroids "large rock" 10 8.46
+	asteroids "medium metal" 12 5.85
+	asteroids "large metal" 1 10.62
+	trade Clothing 310
+	trade Electronics 770
+	trade Equipment 560
+	trade Food 360
+	trade "Heavy Metals" 780
+	trade Industrial 620
+	trade "Luxury Goods" 990
+	trade Medical 820
+	trade Metal 240
+	trade Plastic 340
+	fleet "Small Alteran Merchant" 2900
+	fleet "Large Alteran Merchant" 4500
+	fleet "Alteran Surveillance" 1100
+	fleet "Small Alteran Navy" 2400
+	fleet "Large Alteran Navy" 4300
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/callisto
+		distance 147.09
+		period 34.5757
+	object
+		sprite planet/cloud7
+		distance 318.09
+		period 109.957
+	object
+		sprite planet/lava1
+		distance 491.09
+		period 210.93
+	object
+		sprite planet/uranus
+		distance 896.93
+		period 520.636
+		object
+			sprite planet/ice0
+			distance 214
+			period 13.375
+	object
+		sprite planet/gas3
+		distance 2803.74
+		period 2877.42
+		object
+			sprite planet/dust3
+			distance 296
+			period 13.0078
+		object
+			sprite planet/rock14
+			distance 397
+			period 20.2046
+
+system Assuria
+	pos 533.275 339.106
+	government Altera
+	attributes "outer altera"
+	habitable 425.92
+	link "Ostium"
+	link Ida
+	link "Luminus Alteran"
+	link Selesia
+	asteroids "small rock" 1 1.105
+	asteroids "medium rock" 18 1.261
+	asteroids "large rock" 2 0.689
+	asteroids "small metal" 11 1.573
+	asteroids "medium metal" 38 0.988
+	asteroids "large metal" 3 1.43
+	trade Clothing 340
+	trade Electronics 760
+	trade Equipment 650
+	trade Food 480
+	trade "Heavy Metals" 1090
+	trade Industrial 850
+	trade "Luxury Goods" 1250
+	trade Medical 580
+	trade Metal 530
+	trade Plastic 360
+	fleet "Small Alteran Merchant" 300
+	fleet "Large Alteran Merchant" 550
+	fleet "Alteran Corporate" 700
+	fleet "Alteran Surveillance" 600
+	fleet "Small Alteran Navy" 900
+	fleet "Large Alteran Navy" 1600
+	fleet "Small Alteran Logistics" 1900
+	fleet "Large Alteran Logistics" 3400
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert7
+		distance 200
+		period 54.8202
+	object Asuras
+		sprite planet/forest1
+		distance 590.84
+		period 278.356
+		object
+			sprite planet/rock14
+			distance 179
+			period 23.687
+	object
+		sprite planet/gas14
+		distance 1496.05
+		period 1121.54
+		object
+			sprite planet/rock7
+			distance 211
+			period 12.4819
+		object
+			sprite planet/europa
+			distance 340
+			period 25.5315
+	object
+		sprite planet/gas9
+		distance 2343.01
+		period 2198.15
+		object
+			sprite planet/ice7
+			distance 271
+			period 16.728
+		object
+			sprite planet/ice8
+			distance 376
+			period 27.3383
+
+system Astrius
+	pos 464.375 150.975
+	government Altera
+	attributes "ember line"
+	habitable 625
+	link Basilus
+	link Boreas
+	link Verangia
+	link Zephyrius
+	asteroids "small rock" 9 4.263
+	asteroids "medium rock" 12 6.1335
+	asteroids "large rock" 8 3.0015
+	asteroids "small metal" 9 4.872
+	asteroids "medium metal" 41 6.003
+	asteroids "large metal" 54 3.0015
+	trade Clothing 260
+	trade Electronics 760
+	trade Equipment 590
+	trade Food 520
+	trade "Heavy Metals" 900
+	trade Industrial 630
+	trade "Luxury Goods" 1010
+	trade Medical 800
+	trade Metal 270
+	trade Plastic 340
+	fleet "Small Alteran Merchant" 1100
+	fleet "Large Alteran Merchant" 2100
+	fleet "Alteran Corporate" 5500
+	fleet "Alteran Surveillance" 1100
+	fleet "Small Alteran Navy" 1200
+	fleet "Large Alteran Navy" 2100
+	fleet "Small Alteran Logistics" 2800
+	fleet "Large Alteran Logistics" 6100
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/cloud0
+		distance 269
+		period 70.5908
+		object
+			sprite planet/tethys
+			distance 117
+			period 15.596
+	object
+		sprite planet/rock2
+		distance 652.89
+		period 266.919
+		object
+			sprite planet/dust0
+			distance 158
+			period 21.4448
+	object
+		sprite planet/gas10
+		distance 1430.93
+		period 866.059
+	object
+		sprite planet/gas16
+		distance 2533.34
+		period 2040.14
+		object
+			sprite planet/dust4
+			distance 231
+			period 18.4806
+		object
+			sprite planet/rock17
+			distance 366
+			period 36.8569
+
+system Ayata
+	pos 898.319 169.239
+	government Altera
+	attributes "draconic rim"
+	habitable 1080
+	link Deliorum
+	link Elemira
+	link Iresha
+	link Minarica
+	asteroids "medium rock" 10 2.805
+	asteroids "large rock" 3 3.57
+	asteroids "large metal" 1 2.5245
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 510
+	trade Food 210
+	trade "Heavy Metals" 820
+	trade Industrial 666
+	trade "Luxury Goods" 1150
+	trade Medical 670
+	trade Metal 310
+	trade Plastic 360
+	fleet "Small Alteran Merchant" 1000
+	fleet "Large Alteran Merchant" 1700
+	fleet "Alteran Corporate" 2500
+	fleet "Alteran Surveillance" 750
+	fleet "Small Alteran Navy" 750
+	fleet "Large Alteran Navy" 1600
+	fleet "Small Alteran Logistics" 1700
+	fleet "Large Alteran Logistics" 4500
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/lava7
+		distance 165
+		period 25.7973
+	object
+		sprite planet/lava5
+		distance 515.24
+		period 142.352
+	object Eidolon
+		sprite planet/desert7
+		distance 1144.68
+		period 471.383
+	object
+		sprite planet/gas13
+		distance 2119.68
+		period 1187.83
+		object
+			sprite planet/lava0
+			distance 284
+			period 13.511
+
+system Azalea
+	pos 632.319 186.239
+	government Altera
+	attributes "central rim"
+	habitable 233.28
+	link Namerai
+	link Nasconya
+	link Ocharia
+	link Rubica
+	asteroids "small rock" 66 5.3424
+	asteroids "medium rock" 43 6.048
+	asteroids "large rock" 9 2.772
+	asteroids "small metal" 67 4.6368
+	asteroids "medium metal" 65 2.8728
+	asteroids "large metal" 3 3.528
+	trade Clothing 190
+	trade Electronics 730
+	trade Equipment 540
+	trade Food 340
+	trade "Heavy Metals" 940
+	trade Industrial 620
+	trade "Luxury Goods" 1130
+	trade Medical 720
+	trade Metal 340
+	trade Plastic 280
+	fleet "Small Alteran Merchant" 750
+	fleet "Large Alteran Merchant" 1250
+	fleet "Alteran Corporate" 2200
+	fleet "Alteran Surveillance" 700
+	fleet "Small Alteran Navy" 1400
+	fleet "Large Alteran Navy" 2100
+	fleet "Small Alteran Logistics" 2000
+	fleet "Large Alteran Logistics" 3900
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/lava1
+		distance 125.41
+		period 36.7807
+	object Meldinium
+		sprite planet/rock10
+		distance 326.41
+		period 154.442
+	object
+		sprite planet/gas14
+		distance 957.41
+		period 775.833
+	object
+		sprite planet/rock5
+		distance 1226.5
+		period 1124.92
+	object
+		sprite planet/gas6
+		distance 4255.59
+		period 7270.44
+		object
+			sprite planet/lava0
+			distance 281
+			period 12.0316
+		object
+			sprite planet/rock3
+			distance 412
+			period 21.3605
+
+system Basilus
+	pos 504.032 192.461
+	government Altera
+	attributes "ember line"
+	habitable 1080
+	link Astrius
+	link Boreas
+	link Selphius
+	link Troyca
+	link Zephyrius
+	asteroids "large metal" 1 3.8038
+	trade Clothing 180
+	trade Electronics 730
+	trade Equipment 600
+	trade Food 460
+	trade "Heavy Metals" 950
+	trade Industrial 660
+	trade "Luxury Goods" 1070
+	trade Medical 750
+	trade Metal 330
+	trade Plastic 365
+	fleet "Small Alteran Merchant" 700
+	fleet "Large Alteran Merchant" 1100
+	fleet "Alteran Corporate" 2400
+	fleet "Alteran Surveillance" 850
+	fleet "Small Alteran Navy" 900
+	fleet "Large Alteran Navy" 1600
+	fleet "Small Alteran Logistics" 1800
+	fleet "Large Alteran Logistics" 3700
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/rock8
+		distance 173.09
+		period 27.7176
+	object Dakara
+		sprite planet/rock4
+		distance 700.09
+		period 225.465
+		object
+			sprite planet/dust5
+			distance 169
+			period 17.6727
+	object
+		sprite planet/forest5
+		distance 1457.13
+		period 677.011
+	object
+		sprite planet/rock5
+		distance 1679.29
+		period 837.6
+	object
+		sprite planet/gas5
+		distance 2278.85
+		period 1324.1
+		object
+			sprite planet/rhea
+			distance 267
+			period 14.5082
+
+system Boreas
+	pos 520.589 122.247
+	government Altera
+	attributes "borean cluster"
+	habitable 233.28
+	link Akasia
+	link Astrius
+	link Basilus
+	link Empyrius
+	link Silva
+	link Troyca
+	asteroids "medium rock" 38 3.366
+	asteroids "large rock" 1 4.4132
+	asteroids "small metal" 21 4.9742
+	asteroids "medium metal" 28 3.2164
+	asteroids "large metal" 4 2.1692
+	trade Clothing 290
+	trade Electronics 760
+	trade Equipment 620
+	trade Food 410
+	trade "Heavy Metals" 860
+	trade Industrial 690
+	trade "Luxury Goods" 1080
+	trade Medical 830
+	trade Metal 220
+	trade Plastic 350
+	fleet "Small Alteran Merchant" 550
+	fleet "Large Alteran Merchant" 700
+	fleet "Alteran Corporate" 2100
+	fleet "Alteran Surveillance" 700
+	fleet "Small Alteran Navy" 650
+	fleet "Large Alteran Navy" 1550
+	fleet "Small Alteran Logistics" 2100
+	fleet "Large Alteran Logistics" 3800
+	object
+		sprite star/m4
+		period 10
+	object Noricum
+		sprite planet/cloud2
+		distance 183.44
+		period 65.0672
+	object
+		sprite planet/miranda
+		distance 461.53
+		period 259.67
+	object
+		sprite planet/gas0
+		distance 767.53
+		period 556.883
+	object
+		sprite planet/gas15
+		distance 1606.02
+		period 1685.57
+		object
+			sprite planet/europa
+			distance 211
+			period 16.1332
+		object
+			sprite planet/dust1
+			distance 299
+			period 27.2147
+		object
+			sprite planet/rock14
+			distance 458
+			period 51.5935
+
+system Curia
+	pos 564.275 397.106
+	government Altera
+	attributes "outer altera"
+	habitable 486.68
+	link Ferrlana
+	link "Ostium"
+	link Melianea
+	asteroids "small rock" 12 3.432
+	asteroids "medium rock" 46 2.496
+	asteroids "large rock" 62 1.6224
+	asteroids "large metal" 1 1.8408
+	trade Clothing 300
+	trade Electronics 810
+	trade Equipment 570
+	trade Food 530
+	trade "Heavy Metals" 950
+	trade Industrial 680
+	trade "Luxury Goods" 1313
+	trade Medical 620
+	trade Metal 420
+	trade Plastic 410
+	fleet "Small Alteran Merchant" 500
+	fleet "Large Alteran Merchant" 800
+	fleet "Alteran Corporate" 1300
+	fleet "Alteran Surveillance" 700
+	fleet "Small Alteran Navy" 1400
+	fleet "Large Alteran Navy" 2100
+	fleet "Small Alteran Logistics" 2700
+	fleet "Large Alteran Logistics" 6400
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock6
+		distance 148.16
+		period 32.699
+	object Raetorum
+		sprite planet/forest5
+		distance 470.2
+		period 184.868
+	object
+		sprite planet/rock2
+		distance 1181.09
+		period 735.974
+		object
+			sprite planet/ice7
+			distance 186
+			period 27.3909
+	object
+		sprite planet/gas3
+		distance 2130.3
+		period 1782.79
+		object
+			sprite planet/ice0
+			distance 296
+			period 13.0078
+		object
+			sprite planet/rhea
+			distance 430
+			period 22.7755
+
+system Deliorum
+	pos 930 224.908
+	government Altera
+	attributes "draconic rim"
+	habitable 625
+	link Adragon
+	link Ayata
+	link Rosalia
+	asteroids "small rock" 1 2.7456
+	asteroids "medium rock" 23 6.24
+	asteroids "large rock" 2 5.3664
+	asteroids "medium metal" 12 4.2848
+	asteroids "large metal" 7 5.0752
+	trade Clothing 280
+	trade Electronics 780
+	trade Equipment 490
+	trade Food 240
+	trade "Heavy Metals" 840
+	trade Industrial 640
+	trade "Luxury Goods" 1130
+	trade Medical 670
+	trade Metal 260
+	trade Plastic 380
+	fleet "Small Alteran Merchant" 1400
+	fleet "Large Alteran Merchant" 2500
+	fleet "Alteran Corporate" 3800
+	fleet "Alteran Surveillance" 800
+	fleet "Small Alteran Navy" 1000
+	fleet "Large Alteran Navy" 1800
+	fleet "Small Alteran Logistics" 3200
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/lava1
+		distance 144
+		period 27.648
+	object
+		sprite planet/rock1
+		distance 327
+		period 94.611
+	object
+		sprite planet/rock5
+		distance 610.09
+		period 241.108
+	object
+		sprite planet/jupiter
+		distance 1578.09
+		period 1003.04
+		object
+			sprite planet/callisto
+			distance 289
+			period 15.4386
+		object
+			sprite planet/rhea
+			distance 454
+			period 30.398
+
+system Elemira
+	pos 868.685 232.071
+	government Altera
+	attributes "draconic cluster"
+	habitable 912.6
+	link Adragon
+	link Ayata
+	link Iresha
+	link "Luminus Draconem"
+	asteroids "small rock" 35 6.732
+	asteroids "medium rock" 13 6.375
+	asteroids "large rock" 36 6.477
+	asteroids "small metal" 3 3.621
+	asteroids "medium metal" 18 3.621
+	asteroids "large metal" 4 5.559
+	trade Clothing 320
+	trade Electronics 710
+	trade Equipment 550
+	trade Food 310
+	trade "Heavy Metals" 770
+	trade Industrial 740
+	trade "Luxury Goods" 1210
+	trade Medical 615
+	trade Metal 360
+	trade Plastic 430
+	fleet "Small Alteran Merchant" 830
+	fleet "Large Alteran Merchant" 1800
+	fleet "Alteran Corporate" 4500
+	fleet "Alteran Surveillance" 700
+	fleet "Small Alteran Navy" 950
+	fleet "Large Alteran Navy" 1700
+	fleet "Small Alteran Logistics" 1600
+	object
+		sprite star/k0
+		distance 43.4041
+		period 11.8753
+		offset 180
+	object
+		sprite star/k5
+		distance 49.5959
+		period 11.8753
+	object
+		sprite planet/rock19
+		distance 203.206
+		period 38.3552
+	object
+		sprite planet/cloud0
+		distance 554.696
+		period 172.983
+		object
+			sprite planet/dust5
+			distance 182
+			period 30.2581
+	object
+		sprite planet/rock11
+		distance 990.706
+		period 412.892
+	object
+		sprite planet/lava3
+		distance 1230.27
+		period 571.371
+	object
+		sprite planet/gas14
+		distance 2240.68
+		period 1404.39
+		object
+			sprite planet/desert4
+			distance 230
+			period 14.2053
+		object
+			sprite planet/dust3
+			distance 371
+			period 29.1018
+
+system "Emedia" # Gate of the Ascended
+	pos 734.157 105.198
+	government Altera
+	attributes "central rim"
+	habitable 2795
+	link Rubica
+	asteroids "small rock" 1 4.692
+	asteroids "medium rock" 32 4.318
+	asteroids "large rock" 11 4.692
+	asteroids "small metal" 12 1.836
+	asteroids "medium metal" 10 4.352
+	asteroids "large metal" 91 4.522
+	trade Clothing 230
+	trade Electronics 710
+	trade Equipment 490
+	trade Food 250
+	trade "Heavy Metals" 770
+	trade Industrial 520
+	trade "Luxury Goods" 1020
+	trade Medical 700
+	trade Metal 260
+	trade Plastic 280
+	fleet "Small Alteran Merchant" 2000
+	fleet "Large Alteran Merchant" 4000
+	fleet "Alteran Surveillance" 800
+	fleet "Small Alteran Navy" 900
+	fleet "Large Alteran Navy" 1500
+	fleet "Small Alteran Logistics" 2300
+	fleet "Large Alteran Logistics" 5000
+	object
+		sprite star/f5
+		distance 49.4597
+		period 10.9568
+		offset 180
+	object
+		sprite star/g0
+		distance 78.5403
+		period 10.9568
+	object
+		sprite planet/cloud2
+		distance 274.75
+		period 34.4569
+	object
+		sprite planet/rock8
+		distance 505.19
+		period 85.9115
+	object
+		sprite planet/desert6
+		distance 1251.4
+		period 334.937
+		object
+			sprite planet/europa
+			distance 155
+			period 20.1059
+	object
+		sprite planet/mercury
+		distance 1809.36
+		period 582.313
+	object
+		sprite planet/gas0
+		distance 2283.97
+		period 825.857
+		object
+			sprite planet/dust7
+			distance 287
+			period 14.2488
+
+system Empyrius
+	pos 562.354 136.245
+	government Altera
+	attributes "borean cluster"
+	habitable 621.68
+	link Boreas
+	link Hybernia
+	link Namerai
+	link Silva
+	asteroids "small rock" 12 2.6144
+	asteroids "medium rock" 5 3.7088
+	asteroids "large rock" 3 3.192
+	asteroids "small metal" 2 1.7936
+	asteroids "medium metal" 2 2.7664
+	asteroids "large metal" 4 2.888
+	trade Clothing 250
+	trade Electronics 750
+	trade Equipment 580
+	trade Food 330
+	trade "Heavy Metals" 900
+	trade Industrial 660
+	trade "Luxury Goods" 1080
+	trade Medical 800
+	trade Metal 250
+	trade Plastic 310
+	fleet "Small Alteran Merchant" 650
+	fleet "Large Alteran Merchant" 850
+	fleet "Alteran Corporate" 2000
+	fleet "Alteran Surveillance" 850
+	fleet "Small Alteran Navy" 950
+	fleet "Large Alteran Navy" 1900
+	fleet "Small Alteran Logistics" 2400
+	fleet "Large Alteran Logistics" 4400
+	object
+		sprite star/k0
+		distance 17.1551
+		period 11.2646
+	object
+		sprite star/m8
+		distance 61.8449
+		period 11.2646
+		offset 180
+	object
+		sprite planet/rock12
+		distance 307.885
+		period 86.6681
+	object
+		sprite planet/gas8
+		distance 1035.24
+		period 534.369
+		object
+			sprite planet/dust0
+			distance 211
+			period 16.3155
+		object
+			sprite planet/dust1
+			distance 321
+			period 30.615
+		object
+			sprite planet/ice0
+			distance 467
+			period 53.722
+	object
+		sprite planet/gas17
+		distance 1753.48
+		period 1177.96
+	object
+		sprite planet/gas6
+		distance 2186.73
+		period 1640.48
+
+system Eryth
+	pos 632.23 432.816
+	government Altera
+	attributes "lantean cluster"
+	habitable 1948.28
+	link Lantea
+	link Melianea
+	link Thymia
+	asteroids "medium rock" 1 5.4694
+	asteroids "large rock" 1 6.2698
+	asteroids "small metal" 1 4.5356
+	asteroids "large metal" 3 8.0707
+	trade Clothing 290
+	trade Electronics 761
+	trade Equipment 480
+	trade Food 512
+	trade "Heavy Metals" 810
+	trade Industrial 590
+	trade "Luxury Goods" 1444
+	trade Medical 690
+	trade Metal 370
+	trade Plastic 510
+	fleet "Small Alteran Merchant" 1100
+	fleet "Large Alteran Merchant" 1800
+	fleet "Alteran Corporate" 2800
+	fleet "Alteran Surveillance" 1400
+	fleet "Small Alteran Navy" 1900
+	fleet "Large Alteran Navy" 3900
+	fleet "Small Alteran Logistics" 4200
+	object
+		sprite star/f5
+		distance 11.4947
+		period 8.52396
+	object
+		sprite star/m4
+		distance 84.5053
+		period 8.52396
+		offset 180
+	object
+		sprite planet/ice2
+		distance 372.065
+		period 65.0374
+		object
+			sprite planet/lava0
+			distance 160
+			period 25.4415
+	object
+		sprite planet/rock13
+		distance 841.355
+		period 221.158
+		object
+			sprite planet/rhea
+			distance 161
+			period 25.6804
+	object
+		sprite planet/rock7
+		distance 1127.61
+		period 343.139
+	object Halcyon
+		sprite planet/earth
+		distance 1427.86
+		period 488.946
+	object
+		sprite planet/io
+		distance 2487.9
+		period 1124.56
+
+system Ferrlana
+	pos 600.787 359.884
+	government Altera
+	attributes "inner altera"
+	habitable 320
+	link Curia
+	link Infernalis
+	link "Luminus Alteran"
+	link Thymia
+	asteroids "small rock" 6 4.2224
+	asteroids "medium rock" 1 4.186
+	asteroids "large rock" 7 2.73
+	asteroids "small metal" 11 2.2932
+	asteroids "medium metal" 4 5.096
+	asteroids "large metal" 4 3.8584
+	trade Clothing 350
+	trade Electronics 850
+	trade Equipment 610
+	trade Food 550
+	trade "Heavy Metals" 1030
+	trade Industrial 740
+	trade "Luxury Goods" 1291
+	trade Medical 520
+	trade Metal 470
+	trade Plastic 420
+	fleet "Small Alteran Merchant" 400
+	fleet "Large Alteran Merchant" 650
+	fleet "Alteran Corporate" 900
+	fleet "Alteran Surveillance" 650
+	fleet "Small Alteran Navy" 700
+	fleet "Large Alteran Navy" 1100
+	fleet "Small Alteran Logistics" 2300
+	fleet "Large Alteran Logistics" 4500
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/lava4
+		distance 144.49
+		period 38.8366
+	object Heliopolis
+		sprite planet/forest3
+		distance 475.49
+		period 231.845
+		object
+			sprite planet/ice7
+			distance 159
+			period 22.4555
+	object
+		sprite planet/gas15
+		distance 923.25
+		period 627.284
+	object
+		sprite planet/desert7
+		distance 1555.41
+		period 1371.68
+	object
+		sprite planet/rock3
+		distance 2756.17
+		period 3235.52
+
+system Gargantua
+	pos 717.275 287.106
+	government Quarg
+	attributes "ringworld"
+	habitable 1111.68
+	belt 1245
+	link Kyteka
+	link Witnonia
+	trade Clothing 330
+	trade Electronics 840
+	trade Equipment 580
+	trade Food 560
+	trade "Heavy Metals" 910
+	trade Industrial 660
+	trade "Luxury Goods" 1350
+	trade Medical 570
+	trade Metal 390
+	trade Plastic 410
+	fleet Quarg 640
+	fleet "Small Alteran Merchant" 800
+	fleet "Large Alteran Merchant" 1000
+	fleet "Alteran Corporate" 1100
+	fleet "Alteran Surveillance" 2400
+	fleet "Small Alteran Navy" 2100
+	fleet "Small Alteran Logistics" 4000
+	fleet "Large Alteran Logistics" 9000
+	object
+		sprite star/g5
+		period 10
+	object "Orbis Alteran"
+		sprite planet/ringworld
+		distance 812
+		period 360
+	object "Orbis Alteran"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 20
+	object "Orbis Alteran"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 40
+	object "Orbis Alteran"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 60
+	object "Orbis Alteran"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 80
+	object "Orbis Alteran"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 100
+	object "Orbis Alteran"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 120
+	object "Orbis Alteran"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 140
+	object "Orbis Alteran"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 160
+	object "Orbis Alteran"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 180
+	object "Orbis Alteran"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 200
+	object "Orbis Alteran"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 220
+	object "Orbis Alteran"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 240
+	object "Orbis Alteran"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 260
+	object "Orbis Alteran"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 280
+	object "Orbis Alteran"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 300
+	object "Orbis Alteran"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 320
+	object "Orbis Alteran"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 340
+
+system Grancrest
+	pos 808.319 352.239
+	government Altera
+	attributes "draconic cluster"
+	habitable 625
+	link "Luminus Draconem"
+	asteroids "small rock" 17 8.2215
+	asteroids "medium rock" 36 4.7061
+	asteroids "large rock" 11 6.4638
+	asteroids "small metal" 2 8.505
+	asteroids "medium metal" 73 8.2782
+	asteroids "large metal" 2 4.7628
+	trade Clothing 370
+	trade Electronics 720
+	trade Equipment 500
+	trade Food 430
+	trade "Heavy Metals" 760
+	trade Industrial 780
+	trade "Luxury Goods" 1340
+	trade Medical 600
+	trade Metal 340
+	trade Plastic 430
+	fleet "Small Alteran Merchant" 1200
+	fleet "Large Alteran Merchant" 2400
+	fleet "Alteran Corporate" 3600
+	fleet "Alteran Surveillance" 750
+	fleet "Small Alteran Navy" 1200
+	fleet "Large Alteran Navy" 3000
+	fleet "Small Alteran Logistics" 3800
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/cloud6
+		distance 300.04
+		period 83.1551
+		object
+			sprite planet/rock14
+			distance 156
+			period 19.9477
+	object Zirkonis
+		sprite planet/ocean4
+		distance 654.04
+		period 267.625
+	object
+		sprite planet/rock7
+		distance 1291.29
+		period 742.43
+	object
+		sprite planet/gas17
+		distance 1600.29
+		period 1024.28
+		object
+			sprite planet/tethys
+			distance 198
+			period 11.9034
+	object
+		sprite planet/neptune
+		distance 2873.78
+		period 2464.91
+
+system Hybernia
+	pos 604.382 116.076
+	government Altera
+	attributes "central rim"
+	habitable 1250
+	link Empyrius
+	link Namerai
+	asteroids "small rock" 67 2.62
+	asteroids "medium rock" 96 2.74
+	asteroids "large rock" 9 1
+	asteroids "small metal" 102 1.92
+	asteroids "medium metal" 27 2.9
+	asteroids "large metal" 20 1.68
+	trade Clothing 290
+	trade Electronics 670
+	trade Equipment 540
+	trade Food 270
+	trade "Heavy Metals" 840
+	trade Industrial 600
+	trade "Luxury Goods" 1050
+	trade Medical 760
+	trade Metal 280
+	trade Plastic 320
+	fleet "Small Alteran Merchant" 1000
+	fleet "Large Alteran Merchant" 1500
+	fleet "Alteran Corporate" 3000
+	fleet "Alteran Surveillance" 900
+	fleet "Small Alteran Navy" 2200
+	object
+		sprite star/g5
+		distance 49
+		period 10.976
+		offset 180
+	object
+		sprite star/g5
+		distance 49
+		period 10.976
+	object
+		sprite planet/desert8
+		distance 208.89
+		period 34.1571
+	object
+		sprite planet/gas7
+		distance 838.5
+		period 274.701
+		object
+			sprite planet/ice8
+			distance 245
+			period 13.642
+		object
+			sprite planet/rhea
+			distance 397
+			period 28.1395
+	object
+		sprite planet/gas3
+		distance 1906.51
+		period 941.811
+		object
+			sprite planet/callisto
+			distance 292
+			period 12.745
+		object
+			sprite planet/dust3
+			distance 409
+			period 21.1276
+		object
+			sprite planet/rock14
+			distance 506
+			period 29.073
+
+system Ida
+	pos 541.012 286.461
+	government Altera
+	attributes "outer altera"
+	habitable 233.28
+	link Assuria
+	link "Luminus Alteran"
+	link Selesia
+	link Selphius
+	link Xanos
+	asteroids "small rock" 17 4.851
+	asteroids "medium rock" 1 4.599
+	asteroids "large rock" 25 8.316
+	asteroids "small metal" 37 5.292
+	asteroids "medium metal" 40 8.19
+	asteroids "large metal" 76 5.985
+	trade Clothing 250
+	trade Electronics 690
+	trade Equipment 670
+	trade Food 440
+	trade "Heavy Metals" 1160
+	trade Industrial 780
+	trade "Luxury Goods" 1263
+	trade Medical 540
+	trade Metal 435
+	trade Plastic 380
+	fleet "Small Alteran Merchant" 400
+	fleet "Large Alteran Merchant" 700
+	fleet "Alteran Corporate" 1150
+	fleet "Alteran Surveillance" 700
+	fleet "Small Alteran Navy" 800
+	fleet "Large Alteran Navy" 1300
+	fleet "Small Alteran Logistics" 1700
+	fleet "Large Alteran Logistics" 3400
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/rock5
+		distance 164
+		period 55.0031
+	object Othala
+		sprite planet/rock2
+		distance 495.01
+		period 288.431
+		object Orilla
+			sprite planet/luna
+			distance 157
+			period 21.2416
+	object
+		sprite planet/gas11
+		distance 1035.37
+		period 872.498
+	object
+		sprite planet/gas3
+		distance 2445.53
+		period 3167.24
+		object
+			sprite planet/dust0
+			distance 272
+			period 11.4582
+		object
+			sprite planet/io
+			distance 371
+			period 18.2526
+		object
+			sprite planet/miranda
+			distance 499
+			period 28.4718
+
+system Infernalis
+	pos 631.787 334.884
+	government Altera
+	attributes "inner altera"
+	habitable 806.68
+	link Ferrlana
+	link Kyteka
+	link "Luminus Alteran"
+	link Thymia
+	asteroids "small rock" 4 4.992
+	asteroids "medium rock" 49 3.1616
+	asteroids "large rock" 2 5.7408
+	asteroids "medium metal" 5 3.3696
+	asteroids "large metal" 5 4.7008
+	trade Clothing 320
+	trade Electronics 890
+	trade Equipment 660
+	trade Food 490
+	trade "Heavy Metals" 1090
+	trade Industrial 810
+	trade "Luxury Goods" 1225
+	trade Medical 550
+	trade Metal 510
+	trade Plastic 425
+	fleet "Small Alteran Merchant" 350
+	fleet "Large Alteran Merchant" 600
+	fleet "Alteran Corporate" 750
+	fleet "Alteran Surveillance" 600
+	fleet "Small Alteran Navy" 500
+	fleet "Large Alteran Navy" 900
+	fleet "Small Alteran Logistics" 1000
+	fleet "Large Alteran Logistics" 2100
+	object
+		sprite star/k0
+		distance 42.8423
+		period 15.8068
+		offset 180
+	object
+		sprite star/m0
+		distance 65.1577
+		period 15.8068
+	object
+		sprite planet/desert1
+		distance 379.248
+		period 104.014
+		object
+			sprite planet/lava0
+			distance 168
+			period 18.9022
+	object Wyvernhaven
+		sprite planet/forest3
+		distance 757.088
+		period 293.379
+	object
+		sprite planet/rock18
+		distance 1052.34
+		period 480.775
+	object
+		sprite planet/gas17
+		distance 2081.7
+		period 1337.63
+		object
+			sprite planet/tethys
+			distance 221
+			period 14.0366
+
+system Iresha
+	pos 833.576 194.986
+	government Altera
+	attributes "draconic rim"
+	habitable 2160
+	link Ayata
+	link Elemira
+	link Sidonia
+	asteroids "medium rock" 5 3.4
+	asteroids "large rock" 3 2.414
+	asteroids "small metal" 37 2.754
+	asteroids "medium metal" 98 3.774
+	asteroids "large metal" 1 3.57
+	trade Clothing 280
+	trade Electronics 690
+	trade Equipment 580
+	trade Food 280
+	trade "Heavy Metals" 790
+	trade Industrial 680
+	trade "Luxury Goods" 1180
+	trade Medical 630
+	trade Metal 330
+	trade Plastic 380
+	fleet "Small Alteran Merchant" 850
+	fleet "Large Alteran Merchant" 1300
+	fleet "Alteran Corporate" 2300
+	fleet "Alteran Surveillance" 750
+	fleet "Small Alteran Navy" 950
+	fleet "Large Alteran Navy" 1900
+	fleet "Small Alteran Logistics" 3000
+	fleet "Large Alteran Logistics" 6000
+	object
+		sprite star/g0
+		distance 68
+		period 13.6503
+		offset 180
+	object
+		sprite star/g0
+		distance 68
+		period 13.6503
+	object
+		sprite planet/cloud2
+		distance 286.21
+		period 41.6735
+	object
+		sprite planet/gas10
+		distance 632.05
+		period 136.76
+	object
+		sprite planet/gas12
+		distance 1312.49
+		period 409.239
+		object
+			sprite planet/luna
+			distance 272
+			period 11.7825
+		object
+			sprite planet/europa
+			distance 388
+			period 20.0739
+	object
+		sprite planet/gas15
+		distance 2532.5
+		period 1096.88
+		object
+			sprite planet/dust3
+			distance 204
+			period 15.3371
+		object
+			sprite planet/rock0
+			distance 319
+			period 29.9905
+		object
+			sprite planet/dust7
+			distance 492
+			period 57.444
+
+system Karyllis
+	pos 944.435 397.652
+	government Altera
+	attributes "draconic rim"
+	habitable 1080
+	link Ophelia
+	asteroids "small rock" 2 3.6864
+	asteroids "large rock" 13 3.1488
+	asteroids "small metal" 7 3.712
+	asteroids "medium metal" 28 3.8144
+	asteroids "large metal" 21 1.664
+	trade Clothing 280
+	trade Electronics 830
+	trade Equipment 500
+	trade Food 265
+	trade "Heavy Metals" 680
+	trade Industrial 700
+	trade "Luxury Goods" 1310
+	trade Medical 730
+	trade Metal 330
+	trade Plastic 400
+	fleet "Small Alteran Merchant" 950
+	fleet "Large Alteran Merchant" 1800
+	fleet "Alteran Corporate" 3900
+	fleet "Alteran Surveillance" 700
+	fleet "Small Alteran Navy" 2000
+	fleet "Large Alteran Navy" 5000
+	fleet "Small Alteran Logistics" 3300
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/ice1
+		distance 181.41
+		period 29.7399
+	object
+		sprite planet/rock8
+		distance 469.1
+		period 123.665
+	object
+		sprite planet/rock16
+		distance 659.1
+		period 205.956
+	object
+		sprite planet/gas6
+		distance 2281.71
+		period 1326.6
+		object
+			sprite planet/lava0
+			distance 308
+			period 13.8067
+		object
+			sprite planet/europa
+			distance 453
+			period 24.627
+
+system Kyteka
+	pos 655.012 298.461
+	government Altera
+	attributes "outer altera"
+	habitable 945
+	link Gargantua
+	link Infernalis
+	link Ocharia
+	link Xanos
+	asteroids "small rock" 1 7.917
+	asteroids "medium rock" 8 11.223
+	asteroids "large rock" 6 12.789
+	asteroids "medium metal" 15 8.961
+	asteroids "large metal" 1 8.265
+	trade Clothing 340
+	trade Electronics 850
+	trade Equipment 620
+	trade Food 530
+	trade "Heavy Metals" 990
+	trade Industrial 720
+	trade "Luxury Goods" 1273
+	trade Medical 620
+	trade Metal 410
+	trade Plastic 375
+	fleet "Small Alteran Merchant" 600
+	fleet "Large Alteran Merchant" 950
+	fleet "Alteran Corporate" 1300
+	fleet "Alteran Surveillance" 700
+	fleet "Small Alteran Navy" 1000
+	fleet "Large Alteran Navy" 1600
+	fleet "Small Alteran Logistics" 1900
+	fleet "Large Alteran Logistics" 3400
+	object
+		sprite star/g5
+		distance 33.5238
+		period 12.8173
+	object
+		sprite star/m0
+		distance 65.4762
+		period 12.8173
+		offset 180
+	object
+		sprite planet/cloud0
+		distance 215.886
+		period 41.2745
+	object
+		sprite planet/lava6
+		distance 398.526
+		period 103.521
+	object Vanir
+		sprite planet/ice5
+		distance 598.776
+		period 190.652
+	object
+		sprite planet/gas6
+		distance 1130.67
+		period 494.704
+	object
+		sprite planet/gas5
+		distance 3111.88
+		period 2258.8
+		object
+			sprite planet/miranda
+			distance 270
+			period 14.7534
+		object
+			sprite planet/dust1
+			distance 369
+			period 23.5715
+
+system Lantea
+	pos 623.238 483.735
+	government Altera
+	attributes "lantean cluster"
+	habitable 1705
+	link Eryth
+	link Melianea
+	asteroids "small rock" 26 0.9152
+	asteroids "medium rock" 104 1.8304
+	asteroids "large rock" 26 1.6896
+	asteroids "small metal" 35 2.5872
+	asteroids "medium metal" 10 1.1264
+	asteroids "large metal" 72 1.056
+	trade Clothing 250
+	trade Electronics 790
+	trade Equipment 500
+	trade Food 630
+	trade "Heavy Metals" 850
+	trade Industrial 540
+	trade "Luxury Goods" 1453
+	trade Medical 710
+	trade Metal 380
+	trade Plastic 550
+	fleet "Small Alteran Merchant" 900
+	fleet "Large Alteran Merchant" 1300
+	fleet "Alteran Corporate" 1800
+	fleet "Alteran Surveillance" 900
+	fleet "Small Alteran Navy" 1000
+	fleet "Small Alteran Logistics" 3600
+	object
+		sprite star/g0
+		distance 39.5894
+		period 10.8726
+		offset 180
+	object
+		sprite star/g5
+		distance 68.4106
+		period 10.8726
+	object
+		sprite planet/europa
+		distance 182.251
+		period 23.8342
+	object Atlantis
+		sprite planet/ocean2
+		distance 1398.39
+		period 506.57
+		offset 194.005
+		object
+			sprite planet/callisto
+			distance 161
+			period 25.6804
+	object
+		sprite planet/gas9
+		distance 2341.03
+		period 1097.26
+		offset 110.199
+		object
+			sprite planet/tethys
+			distance 224
+			period 12.5708
+	object
+		sprite planet/gas15
+		distance 3313.87
+		period 1848
+		offset 168.29
+		object
+			sprite planet/rock7
+			distance 220
+			period 17.1764
+		object
+			sprite planet/miranda
+			distance 321
+			period 30.2729
+
+system "Luminus Alteran" # Light of Altera
+	pos 592.136 320.194
+	government Altera
+	attributes "inner altera"
+	habitable 1050.92
+	link Assuria
+	link Ferrlana
+	link Ida
+	link Infernalis
+	link Xanos
+	asteroids "large rock" 2 7.714
+	asteroids "small metal" 1 3.8836
+	asteroids "medium metal" 7 4.256
+	asteroids "large metal" 1 7.1288
+	trade Clothing 330
+	trade Electronics 780
+	trade Equipment 570
+	trade Food 530
+	trade "Heavy Metals" 1050
+	trade Industrial 770
+	trade "Luxury Goods" 1343
+	trade Medical 500
+	trade Metal 420
+	trade Plastic 440
+	fleet "Small Alteran Merchant" 300
+	fleet "Large Alteran Merchant" 550
+	fleet "Alteran Corporate" 700
+	fleet "Alteran Surveillance" 600
+	fleet "Small Alteran Navy" 800
+	fleet "Large Alteran Navy" 1300
+	fleet "Small Alteran Logistics" 1400
+	fleet "Large Alteran Logistics" 3200
+	object
+		sprite star/g5
+		distance 44.1758
+		period 14.0415
+	object
+		sprite star/k5
+		distance 64.8242
+		period 14.0415
+		offset 180
+	object
+		sprite planet/rock5
+		distance 200.434
+		period 35.0133
+	object
+		sprite planet/venus
+		distance 390.434
+		period 95.1912
+	object Celestis
+		sprite planet/earth
+		distance 875.724
+		period 319.761
+	object
+		sprite planet/gas13
+		distance 2538.28
+		period 1577.92
+		object
+			sprite planet/rock7
+			distance 264
+			period 12.1092
+		object
+			sprite planet/rhea
+			distance 398
+			period 22.4148
+
+system "Luminus Draconem" # Light of Dracone
+	pos 835.275 287.106
+	government Altera
+	attributes "draconic cluster"
+	habitable 320
+	link Adragon
+	link Elemira
+	link Grancrest
+	link Menus
+	link Witnonia
+	asteroids "small rock" 2 7.6038
+	asteroids "medium rock" 13 7.7691
+	asteroids "large rock" 1 6.9977
+	asteroids "medium metal" 4 4.8488
+	asteroids "large metal" 5 3.7468
+	trade Clothing 330
+	trade Electronics 750
+	trade Equipment 590
+	trade Food 390
+	trade "Heavy Metals" 720
+	trade Industrial 840
+	trade "Luxury Goods" 1263
+	trade Medical 580
+	trade Metal 400
+	trade Plastic 460
+	fleet "Small Alteran Merchant" 700
+	fleet "Large Alteran Merchant" 1200
+	fleet "Alteran Corporate" 1800
+	fleet "Alteran Surveillance" 650
+	fleet "Small Alteran Navy" 700
+	fleet "Large Alteran Navy" 1200
+	fleet "Small Alteran Logistics" 1300
+	fleet "Large Alteran Logistics" 3700
+	object
+		sprite star/m0
+		period 10
+	object Draconis
+		sprite planet/forest0-b
+		distance 272.09
+		period 100.358
+		object "Forta Dracone"
+			sprite planet/dust5
+			distance 155
+			period 22.02
+	object
+		sprite planet/desert10
+		distance 678.98
+		period 395.613
+	object
+		sprite planet/gas10
+		distance 1882.07
+		period 1825.74
+		object
+			sprite planet/miranda
+			distance 218
+			period 16.9427
+		object
+			sprite planet/rock0
+			distance 361
+			period 36.1042
+		object
+			sprite planet/dust4
+			distance 473
+			period 54.1488
+		object
+			sprite planet/rock14
+			distance 633
+			period 83.8306
+
+system Melianea
+	pos 584.238 461.735
+	government Altera
+	attributes "lantean cluster"
+	habitable 368.28
+	link Curia
+	link Eryth
+	link Lantea
+	asteroids "small rock" 12 7.992
+	asteroids "medium rock" 6 7.992
+	asteroids "large rock" 2 5.292
+	asteroids "small metal" 2 2.808
+	asteroids "medium metal" 4 3.564
+	asteroids "large metal" 1 7.884
+	trade Clothing 280
+	trade Electronics 825
+	trade Equipment 570
+	trade Food 580
+	trade "Heavy Metals" 890
+	trade Industrial 630
+	trade "Luxury Goods" 1420
+	trade Medical 660
+	trade Metal 420
+	trade Plastic 480
+	fleet "Small Alteran Merchant" 550
+	fleet "Large Alteran Merchant" 1000
+	fleet "Alteran Corporate" 1800
+	fleet "Alteran Surveillance" 650
+	fleet "Small Alteran Navy" 1600
+	fleet "Large Alteran Navy" 2700
+	fleet "Small Alteran Logistics" 3100
+	fleet "Large Alteran Logistics" 7200
+	object
+		sprite star/m4
+		distance 35.9238
+		period 20.2213
+	object
+		sprite star/m8
+		distance 62.0762
+		period 20.2213
+		offset 180
+	object
+		sprite planet/cloud5
+		distance 256.766
+		period 85.7586
+	object Turicum
+		sprite planet/forest1
+		distance 702.006
+		period 387.688
+		object
+			sprite planet/dust5
+			distance 165
+			period 23.7385
+	object
+		sprite planet/gas17
+		distance 1413.01
+		period 1107.1
+		object
+			sprite planet/ice8
+			distance 207
+			period 12.7242
+		object
+			sprite planet/callisto
+			distance 321
+			period 24.5715
+	object
+		sprite planet/gas11
+		distance 2309.85
+		period 2313.91
+
+system Menus
+	pos 879.319 321.239
+	government Altera
+	attributes "draconic cluster"
+	habitable 625
+	link Acidalia
+	link Adragon
+	link "Luminus Draconem"
+	link Ophelia
+	asteroids "small rock" 3 1.343
+	asteroids "medium rock" 16 1.989
+	asteroids "large rock" 2 1.836
+	asteroids "small metal" 15 1.598
+	asteroids "medium metal" 35 2.176
+	asteroids "large metal" 34 1.428
+	trade Clothing 310
+	trade Electronics 770
+	trade Equipment 510
+	trade Food 330
+	trade "Heavy Metals" 740
+	trade Industrial 730
+	trade "Luxury Goods" 1230
+	trade Medical 660
+	trade Metal 340
+	trade Plastic 400
+	fleet "Small Alteran Merchant" 850
+	fleet "Large Alteran Merchant" 1800
+	fleet "Alteran Corporate" 2500
+	fleet "Alteran Surveillance" 700
+	fleet "Small Alteran Navy" 900
+	fleet "Large Alteran Navy" 2300
+	fleet "Small Alteran Logistics" 3000
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/cloud8
+		distance 177
+		period 37.6773
+	object
+		sprite planet/cloud7
+		distance 458.64
+		period 157.155
+	object
+		sprite planet/dust6
+		distance 655.89
+		period 268.761
+	object
+		sprite planet/gas11
+		distance 2063.38
+		period 1499.65
+		object
+			sprite planet/desert4
+			distance 261
+			period 13.9072
+		object
+			sprite planet/dust1
+			distance 400
+			period 26.3856
+
+system Minarica
+	pos 938.854 137.272
+	government Altera
+	attributes "draconic rim"
+	habitable 945
+	link Ayata
+	asteroids "large metal" 1 3.5904
+	trade Clothing 271
+	trade Electronics 680
+	trade Equipment 480
+	trade Food 160
+	trade "Heavy Metals" 860
+	trade Industrial 590
+	trade "Luxury Goods" 1060
+	trade Medical 720
+	trade Metal 280
+	trade Plastic 290
+	fleet "Small Alteran Merchant" 1100
+	fleet "Large Alteran Merchant" 2400
+	fleet "Alteran Corporate" 5000
+	fleet "Alteran Surveillance" 800
+	fleet "Small Alteran Navy" 950
+	fleet "Large Alteran Navy" 1700
+	fleet "Small Alteran Logistics" 2500
+	fleet "Large Alteran Logistics" 7000
+	object
+		sprite star/g5
+		distance 32.1693
+		period 12.0484
+		offset 180
+	object
+		sprite star/m0
+		distance 62.8307
+		period 12.0484
+	object
+		sprite planet/rock10
+		distance 232.041
+		period 45.9928
+	object
+		sprite planet/lava1
+		distance 439.291
+		period 119.804
+	object
+		sprite planet/rock15
+		distance 970.781
+		period 393.573
+	object
+		sprite planet/venus
+		distance 1293.67
+		period 605.452
+	object
+		sprite planet/gas15
+		distance 3880.91
+		period 3145.9
+
+system Namerai
+	pos 579.319 182.239
+	government Altera
+	attributes "central rim"
+	habitable 625
+	link Azalea
+	link Empyrius
+	link Hybernia
+	link Selphius
+	link Troyca
+	asteroids "medium rock" 9 2.5168
+	asteroids "large rock" 1 2.7456
+	asteroids "small metal" 6 3.5178
+	asteroids "medium metal" 2 4.0612
+	asteroids "large metal" 1 4.0612
+	trade Clothing 240
+	trade Electronics 700
+	trade Equipment 610
+	trade Food 310
+	trade "Heavy Metals" 940
+	trade Industrial 640
+	trade "Luxury Goods" 1120
+	trade Medical 760
+	trade Metal 310
+	trade Plastic 330
+	fleet "Small Alteran Merchant" 600
+	fleet "Large Alteran Merchant" 800
+	fleet "Alteran Corporate" 1900
+	fleet "Alteran Surveillance" 750
+	fleet "Small Alteran Navy" 800
+	fleet "Large Alteran Navy" 1400
+	fleet "Small Alteran Logistics" 2000
+	fleet "Large Alteran Logistics" 4000
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert3
+		distance 174.44
+		period 36.8629
+	object
+		sprite planet/desert6
+		distance 395.08
+		period 125.646
+	object
+		sprite planet/gas14
+		distance 801.44
+		period 363.017
+	object
+		sprite planet/lava3
+		distance 1138.44
+		period 614.59
+	object
+		sprite planet/gas1
+		distance 4020.2
+		period 4078.42
+		object
+			sprite planet/callisto
+			distance 247
+			period 15.5153
+		object
+			sprite planet/oberon
+			distance 388
+			period 30.5466
+		object
+			sprite planet/dust0
+			distance 493
+			period 43.7508
+
+system Nasconya
+	pos 695.157 209.198
+	government Altera
+	attributes "central rim"
+	habitable 486.68
+	link Azalea
+	link Ocharia
+	link Rubica
+	link Sidonia
+	asteroids "small rock" 6 1.792
+	asteroids "medium rock" 12 1.596
+	asteroids "large rock" 19 1.456
+	asteroids "small metal" 15 1.932
+	asteroids "medium metal" 76 2.1
+	asteroids "large metal" 5 3.864
+	trade Clothing 230
+	trade Electronics 800
+	trade Equipment 520
+	trade Food 360
+	trade "Heavy Metals" 930
+	trade Industrial 650
+	trade "Luxury Goods" 1150
+	trade Medical 650
+	trade Metal 420
+	trade Plastic 290
+	fleet "Small Alteran Merchant" 650
+	fleet "Large Alteran Merchant" 1100
+	fleet "Alteran Corporate" 1600
+	fleet "Alteran Surveillance" 700
+	fleet "Small Alteran Navy" 750
+	fleet "Large Alteran Navy" 1300
+	fleet "Small Alteran Logistics" 1500
+	fleet "Large Alteran Logistics" 3000
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/titan
+		distance 159.49
+		period 36.5206
+	object Orario
+		sprite planet/forest1
+		distance 380.49
+		period 134.572
+	object
+		sprite planet/ice3
+		distance 973.98
+		period 551.142
+	object
+		sprite planet/ice0
+		distance 1312.27
+		period 861.932
+	object
+		sprite planet/gas4
+		distance 2848.76
+		period 2756.91
+
+system Ocharia
+	pos 634.012 239.461
+	government Altera
+	attributes "central rim"
+	habitable 4087.76
+	link Azalea
+	link Kyteka
+	link Nasconya
+	link Vanedia
+	link Xanos
+	asteroids "small rock" 36 1.573
+	asteroids "medium rock" 39 0.759
+	asteroids "large rock" 17 1.023
+	asteroids "small metal" 20 0.66
+	asteroids "medium metal" 4 1.089
+	asteroids "large metal" 11 0.946
+	trade Clothing 240
+	trade Electronics 770
+	trade Equipment 580
+	trade Food 450
+	trade "Heavy Metals" 1030
+	trade Industrial 660
+	trade "Luxury Goods" 1163
+	trade Medical 680
+	trade Metal 400
+	trade Plastic 310
+	fleet "Small Alteran Merchant" 700
+	fleet "Large Alteran Merchant" 1200
+	fleet "Alteran Corporate" 1700
+	fleet "Alteran Surveillance" 700
+	fleet "Small Alteran Navy" 900
+	fleet "Large Alteran Navy" 1500
+	fleet "Small Alteran Logistics" 1800
+	fleet "Large Alteran Logistics" 3200
+	object
+		sprite star/f0
+		distance 60.8341
+		period 10.9237
+		offset 180
+	object
+		sprite star/f5
+		distance 84.1659
+		period 10.9237
+	object
+		sprite planet/desert5
+		distance 252.166
+		period 25.0523
+	object
+		sprite planet/cloud6
+		distance 479.166
+		period 65.6215
+	object
+		sprite planet/gas14
+		distance 1497.58
+		period 362.577
+		object
+			sprite planet/io
+			distance 236
+			period 14.7648
+		object
+			sprite planet/rock3
+			distance 357
+			period 27.4701
+	object
+		sprite planet/gas13
+		distance 2997.22
+		period 1026.58
+
+system Ophelia
+	pos 899.319 370.239
+	government Altera
+	attributes "draconic rim"
+	habitable 621.68
+	link Acidalia
+	link Karyllis
+	link Menus
+	asteroids "medium rock" 2 5.985
+	asteroids "large rock" 1 2.8975
+	asteroids "small metal" 2 3.23
+	asteroids "medium metal" 1 5.32
+	asteroids "large metal" 1 3.135
+	trade Clothing 270
+	trade Electronics 800
+	trade Equipment 560
+	trade Food 280
+	trade "Heavy Metals" 700
+	trade Industrial 670
+	trade "Luxury Goods" 1200
+	trade Medical 760
+	trade Metal 260
+	trade Plastic 350
+	fleet "Small Alteran Merchant" 1100
+	fleet "Large Alteran Merchant" 2000
+	fleet "Alteran Corporate" 3700
+	fleet "Alteran Surveillance" 800
+	fleet "Small Alteran Navy" 1800
+	fleet "Large Alteran Navy" 3000
+	fleet "Small Alteran Logistics" 3200
+	object
+		sprite star/k0
+		distance 16.938
+		period 11.0514
+		offset 180
+	object
+		sprite star/m8
+		distance 61.062
+		period 11.0514
+	object
+		sprite planet/desert0
+		distance 232.422
+		period 56.845
+	object
+		sprite planet/venus
+		distance 739.672
+		period 322.727
+		object
+			sprite planet/europa
+			distance 141
+			period 19.105
+	object
+		sprite planet/neptune
+		distance 1181.67
+		period 651.661
+	object
+		sprite planet/gas5
+		distance 1555.91
+		period 984.587
+	object
+		sprite planet/gas4
+		distance 2442
+		period 1935.96
+		object
+			sprite planet/rock7
+			distance 241
+			period 13.1954
+		object
+			sprite planet/dust7
+			distance 383
+			period 26.436
+
+system "Ostium" # Gate of the Fallen
+	pos 507.275 382.106
+	government Altera
+	attributes "outer altera"
+	habitable 425.92
+	link Assuria
+	link Curia
+	link Selesia
+	asteroids "small rock" 3 5.34
+	asteroids "medium rock" 9 5.04
+	asteroids "large rock" 2 6.24
+	asteroids "small metal" 5 4.44
+	asteroids "medium metal" 46 3.24
+	asteroids "large metal" 164 4.44
+	trade Clothing 310
+	trade Electronics 777
+	trade Equipment 630
+	trade Food 450
+	trade "Heavy Metals" 990
+	trade Industrial 750
+	trade "Luxury Goods" 1203
+	trade Medical 580
+	trade Metal 450
+	trade Plastic 390
+	fleet "Small Alteran Merchant" 450
+	fleet "Large Alteran Merchant" 700
+	fleet "Alteran Corporate" 1500
+	fleet "Alteran Surveillance" 900
+	fleet "Small Alteran Navy" 1000
+	fleet "Large Alteran Navy" 1800
+	fleet "Small Alteran Logistics" 2400
+	fleet "Large Alteran Logistics" 4000
+	object
+		sprite star/k5
+		period 10
+	object "Guardia Alpha"
+		sprite planet/desert9
+		distance 141.24
+		period 32.5336
+	object
+		sprite planet/dust0
+		distance 504.28
+		period 219.484
+	object
+		sprite planet/gas7
+		distance 758.24
+		period 404.675
+	object
+		sprite planet/rock0
+		distance 1102.05
+		period 709.084
+	object
+		sprite planet/neptune
+		distance 1834.89
+		period 1523.39
+		object
+			sprite planet/desert4
+			distance 187
+			period 12.7407
+		object
+			sprite planet/ice7
+			distance 303
+			period 26.2782
+
+system Rosalia
+	pos 956.104 283.14
+	government Altera
+	attributes "draconic rim"
+	habitable 2340
+	link Acidalia
+	link Deliorum
+	asteroids "medium rock" 14 1.9435
+	asteroids "large rock" 1 2.2425
+	asteroids "medium metal" 1 3.6478
+	asteroids "large metal" 1 2.0033
+	trade Clothing 260
+	trade Electronics 830
+	trade Equipment 440
+	trade Food 180
+	trade "Heavy Metals" 780
+	trade Industrial 600
+	trade "Luxury Goods" 1070
+	trade Medical 740
+	trade Metal 340
+	trade Plastic 340
+	fleet "Small Alteran Merchant" 1000
+	fleet "Large Alteran Merchant" 1900
+	fleet "Alteran Corporate" 3000
+	fleet "Alteran Surveillance" 750
+	fleet "Small Alteran Navy" 1100
+	fleet "Large Alteran Navy" 2000
+	fleet "Small Alteran Logistics" 3500
+	object
+		sprite star/f5
+		distance 36.5919
+		period 13.2597
+		offset 180
+	object
+		sprite star/g5
+		distance 100.408
+		period 13.2597
+	object
+		sprite planet/mars
+		distance 273.418
+		period 37.3846
+	object
+		sprite planet/gas0
+		distance 823.028
+		period 195.242
+		object
+			sprite planet/dust3
+			distance 249
+			period 11.5148
+	object
+		sprite planet/cloud0
+		distance 1310.72
+		period 392.388
+	object
+		sprite planet/gas14
+		distance 2068.16
+		period 777.728
+		object
+			sprite planet/rock17
+			distance 223
+			period 13.5618
+		object
+			sprite planet/rock3
+			distance 332
+			period 24.6358
+
+system Rubica # Rekota
+	pos 695.157 162.198
+	government Altera
+	attributes "central rim"
+	habitable 1250
+	link Azalea
+	link "Emedia"
+	link Nasconya
+	asteroids "small rock" 54 4.8708
+	asteroids "medium rock" 49 7.3062
+	asteroids "large rock" 22 4.0392
+	asteroids "small metal" 14 7.128
+	asteroids "medium metal" 196 7.6032
+	asteroids "large metal" 26 2.97
+	trade Clothing 210
+	trade Electronics 740
+	trade Equipment 505
+	trade Food 320
+	trade "Heavy Metals" 870
+	trade Industrial 590
+	trade "Luxury Goods" 1090
+	trade Medical 670
+	trade Metal 330
+	trade Plastic 250
+	fleet "Small Alteran Merchant" 900
+	fleet "Large Alteran Merchant" 1400
+	fleet "Alteran Corporate" 2400
+	fleet "Alteran Surveillance" 750
+	fleet "Small Alteran Navy" 800
+	fleet "Large Alteran Navy" 1400
+	fleet "Small Alteran Logistics" 2100
+	fleet "Large Alteran Logistics" 4500
+	object
+		sprite star/g5
+		distance 48
+		period 10.6417
+		offset 180
+	object
+		sprite star/g5
+		distance 48
+		period 10.6417
+	object
+		sprite planet/titan
+		distance 177.09
+		period 26.6622
+	object
+		sprite planet/lava3
+		distance 479.65
+		period 118.848
+	object Caelum
+		sprite planet/forest5
+		distance 712.65
+		period 215.238
+	object
+		sprite planet/gas15
+		distance 1529.54
+		period 676.778
+		object
+			sprite planet/ice0
+			distance 197
+			period 14.5545
+		object
+			sprite planet/io
+			distance 341
+			period 33.1458
+		object
+			sprite planet/rock3
+			distance 428
+			period 46.6083
+		object
+			sprite planet/tethys
+			distance 519
+			period 62.2369
+
+system Selesia
+	pos 503.011 302.411
+	government Altera
+	attributes "outer altera"
+	habitable 233.28
+	link Assuria
+	link "Ostium"
+	link Ida
+	asteroids "small rock" 10 4.4928
+	asteroids "medium rock" 5 4.2822
+	asteroids "large rock" 2 5.265
+	asteroids "small metal" 1 5.3352
+	asteroids "medium metal" 6 10.1088
+	asteroids "large metal" 21 5.6862
+	trade Clothing 270
+	trade Electronics 720
+	trade Equipment 620
+	trade Food 445
+	trade "Heavy Metals" 1050
+	trade Industrial 760
+	trade "Luxury Goods" 1250
+	trade Medical 560
+	trade Metal 440
+	trade Plastic 400
+	fleet "Small Alteran Merchant" 1000
+	fleet "Large Alteran Merchant" 2400
+	fleet "Alteran Corporate" 5000
+	fleet "Alteran Surveillance" 1200
+	fleet "Small Alteran Navy" 2500
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/water0
+		distance 210.49
+		period 79.9776
+	object
+		sprite planet/oberon
+		distance 420.18
+		period 225.566
+	object
+		sprite planet/gas1
+		distance 846.87
+		period 645.426
+	object
+		sprite planet/rock7
+		distance 1851.63
+		period 2086.66
+	object
+		sprite planet/gas9
+		distance 2552.44
+		period 3377.18
+		object
+			sprite planet/rock0
+			distance 217
+			period 11.9862
+
+system Selphius
+	pos 545.012 220.461
+	government Altera
+	attributes "ember line"
+	habitable 486.68
+	link Basilus
+	link Ida
+	link Namerai
+	link Xanos
+	asteroids "medium rock" 6 3.381
+	asteroids "large rock" 8 4.0572
+	asteroids "large metal" 5 2.5116
+	trade Clothing 190
+	trade Electronics 720
+	trade Equipment 590
+	trade Food 390
+	trade "Heavy Metals" 1060
+	trade Industrial 690
+	trade "Luxury Goods" 1150
+	trade Medical 650
+	trade Metal 394
+	trade Plastic 330
+	fleet "Small Alteran Merchant" 450
+	fleet "Large Alteran Merchant" 800
+	fleet "Alteran Corporate" 1300
+	fleet "Alteran Surveillance" 800
+	fleet "Small Alteran Navy" 800
+	fleet "Large Alteran Navy" 1350
+	fleet "Small Alteran Logistics" 1700
+	fleet "Large Alteran Logistics" 3100
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/ice2
+		distance 225.44
+		period 61.374
+	object Elarum
+		sprite planet/earth
+		distance 497.28
+		period 201.067
+	object
+		sprite planet/gas15
+		distance 888.64
+		period 480.316
+		object
+			sprite planet/luna
+			distance 186
+			period 13.3526
+	object
+		sprite planet/lava5
+		distance 1280.48
+		period 830.802
+	object
+		sprite planet/gas7
+		distance 4343.92
+		period 5191.12
+		object
+			sprite planet/miranda
+			distance 258
+			period 14.7421
+		object
+			sprite planet/callisto
+			distance 391
+			period 27.504
+		object
+			sprite planet/dust1
+			distance 524
+			period 42.6705
+
+system Sidonia
+	pos 763.157 212.198
+	government Altera
+	attributes "draconic rim"
+	habitable 1080
+	link Iresha
+	link Nasconya
+	link Witnonia
+	asteroids "small rock" 170 3.19
+	asteroids "medium rock" 78 1.452
+	asteroids "large rock" 14 1.232
+	asteroids "small metal" 2 2.882
+	asteroids "medium metal" 6 2.156
+	asteroids "large metal" 1 1.738
+	trade Clothing 295
+	trade Electronics 750
+	trade Equipment 540
+	trade Food 370
+	trade "Heavy Metals" 860
+	trade Industrial 680
+	trade "Luxury Goods" 1220
+	trade Medical 590
+	trade Metal 380
+	trade Plastic 355
+	fleet "Small Alteran Merchant" 680
+	fleet "Large Alteran Merchant" 1150
+	fleet "Alteran Corporate" 1800
+	fleet "Alteran Surveillance" 700
+	fleet "Small Alteran Navy" 800
+	fleet "Large Alteran Navy" 1300
+	fleet "Small Alteran Logistics" 2000
+	fleet "Large Alteran Logistics" 3500
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/dust6
+		distance 177.96
+		period 28.8956
+	object
+		sprite planet/dust2
+		distance 353.6
+		period 80.9313
+	object Okeanos
+		sprite planet/ocean5
+		distance 1006.84
+		period 388.856
+	object
+		sprite planet/gas1
+		distance 1296.05
+		period 567.912
+	object
+		sprite planet/gas16
+		distance 3835.41
+		period 2891.12
+		object
+			sprite planet/dust1
+			distance 207
+			period 15.6766
+
+system Silva
+	pos 557.366 84.1807
+	government Altera
+	attributes "borean cluster"
+	habitable 486.68
+	belt 1032
+	link Akasia
+	link Boreas
+	link Empyrius
+	asteroids "small rock" 2 5.7753
+	asteroids "medium rock" 6 6.3963
+	asteroids "large rock" 1 4.9059
+	asteroids "small metal" 3 4.0365
+	asteroids "medium metal" 3 5.0922
+	asteroids "large metal" 1 9.1287
+	trade Clothing 250
+	trade Electronics 720
+	trade Equipment 610
+	trade Food 340
+	trade "Heavy Metals" 800
+	trade Industrial 590
+	trade "Luxury Goods" 1040
+	trade Medical 860
+	trade Metal 280
+	trade Plastic 370
+	fleet "Small Alteran Merchant" 950
+	fleet "Large Alteran Merchant" 1650
+	fleet "Alteran Corporate" 4600
+	fleet "Alteran Surveillance" 900
+	fleet "Small Alteran Navy" 2100
+	fleet "Large Alteran Navy" 4000
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/desert7
+		distance 170.64
+		period 40.4166
+	object Noctillum
+		sprite planet/desert2
+		distance 451.139
+		period 173.742
+		offset 143.769
+	object
+		sprite planet/gas14
+		distance 1458.14
+		period 1009.57
+		offset 38.9186
+		object
+			sprite planet/desert4
+			distance 225
+			period 13.7446
+		object
+			sprite planet/ice0
+			distance 355
+			period 27.2396
+	object
+		sprite planet/gas12
+		distance 2802.43
+		period 2689.93
+		offset 7.32529
+		object
+			sprite planet/dust3
+			distance 287
+			period 12.7705
+		object
+			sprite planet/ice8
+			distance 431
+			period 23.5018
+		object
+			sprite planet/dust1
+			distance 561
+			period 34.9003
+
+system Thymia
+	pos 644.234 380.97
+	government Altera
+	attributes "inner altera"
+	habitable 8640
+	link Eryth
+	link Ferrlana
+	link Infernalis
+	asteroids "small rock" 15 4.3605
+	asteroids "medium rock" 2 4.9761
+	asteroids "large rock" 1 5.0274
+	asteroids "small metal" 8 5.3352
+	asteroids "medium metal" 1 5.8482
+	asteroids "large metal" 19 7.0794
+	trade Clothing 310
+	trade Electronics 784
+	trade Equipment 550
+	trade Food 500
+	trade "Heavy Metals" 920
+	trade Industrial 700
+	trade "Luxury Goods" 1330
+	trade Medical 630
+	trade Metal 420
+	trade Plastic 460
+	fleet "Small Alteran Merchant" 1200
+	fleet "Large Alteran Merchant" 2100
+	fleet "Alteran Corporate" 3700
+	fleet "Alteran Surveillance" 1100
+	fleet "Small Alteran Navy" 1700
+	fleet "Large Alteran Navy" 4100
+	fleet "Small Alteran Logistics" 4400
+	object
+		sprite star/b5
+		period 10
+	object
+		sprite planet/venus
+		distance 190.25
+		period 11.2925
+	object
+		sprite planet/ice1
+		distance 550.25
+		period 55.5448
+		object
+			sprite planet/dust7
+			distance 189
+			period 22.207
+	object
+		sprite planet/gas3
+		distance 1538.61
+		period 259.714
+		object
+			sprite planet/rock17
+			distance 260
+			period 10.7084
+	object
+		sprite planet/gas6
+		distance 2589.62
+		period 567.097
+		object
+			sprite planet/miranda
+			distance 284
+			period 12.2248
+
+system Troyca
+	pos 536.008 166.473
+	government Altera
+	attributes "borean cluster"
+	habitable 1715
+	belt 1037
+	link Basilus
+	link Boreas
+	link Namerai
+	asteroids "small rock" 23 5.148
+	asteroids "medium rock" 49 3.74
+	asteroids "large rock" 25 5.236
+	asteroids "small metal" 15 6.314
+	asteroids "medium metal" 27 4.664
+	asteroids "large metal" 11 5.896
+	minables copper 3 6.74737
+	minables platinum 21 7.58575
+	trade Clothing 230
+	trade Electronics 730
+	trade Equipment 650
+	trade Food 350
+	trade "Heavy Metals" 830
+	trade Industrial 700
+	trade "Luxury Goods" 1060
+	trade Medical 820
+	trade Metal 250
+	trade Plastic 360
+	fleet "Small Alteran Merchant" 800
+	fleet "Large Alteran Merchant" 1600
+	fleet "Alteran Corporate" 5050
+	fleet "Alteran Surveillance" 850
+	fleet "Small Alteran Navy" 1900
+	fleet "Large Alteran Navy" 4200
+	fleet "Small Alteran Logistics" 3900
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/cloud1
+		distance 364.23
+		period 67.1415
+		offset 319.099
+	object
+		sprite planet/rock4
+		distance 740.887
+		period 194.785
+		offset 51.4022
+	object
+		sprite planet/cloud4
+		distance 1465.64
+		period 541.961
+		offset 60.8641
+		object "Stacia Centoria"
+			sprite planet/altera_station0
+			distance 168
+			period 20.4812
+	object
+		sprite planet/gas4
+		distance 2738.09
+		period 1383.88
+		offset 133.47
+		object
+			sprite planet/ice0
+			distance 258
+			period 14.6159
+		object
+			sprite planet/callisto
+			distance 389
+			period 27.0596
+	object
+		sprite planet/gas11
+		distance 3953.7
+		period 2401.23
+		offset 143.899
+		object
+			sprite planet/dust0
+			distance 222
+			period 10.9096
+
+system Vanedia # Sakura
+	pos 693.157 253.198
+	government Altera
+	attributes "central rim"
+	habitable 320
+	link Ocharia
+	asteroids "medium rock" 16 4.0986
+	asteroids "large rock" 1 3.2292
+	asteroids "large metal" 1 3.3534
+	trade Clothing 260
+	trade Electronics 730
+	trade Equipment 610
+	trade Food 370
+	trade "Heavy Metals" 940
+	trade Industrial 650
+	trade "Luxury Goods" 1260
+	trade Medical 700
+	trade Metal 430
+	trade Plastic 360
+	fleet "Small Alteran Merchant" 2500
+	fleet "Alteran Surveillance" 1000
+	fleet "Small Alteran Navy" 2050
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/rock10
+		distance 177
+		period 52.6556
+	object
+		sprite planet/cloud1
+		distance 629.49
+		period 353.157
+	object
+		sprite planet/desert8
+		distance 1004.78
+		period 712.183
+	object
+		sprite planet/gas8
+		distance 1372.03
+		period 1136.4
+	object
+		sprite planet/jupiter
+		distance 3558.99
+		period 4747.61
+		object
+			sprite planet/dust0
+			distance 272
+			period 14.0966
+		object
+			sprite planet/desert4
+			distance 406
+			period 25.707
+		object
+			sprite planet/dust3
+			distance 507
+			period 35.8735
+		object
+			sprite planet/dust5
+			distance 632
+			period 49.9272
+
+system Verangia
+	pos 426.257 96.146
+	government Altera
+	attributes "ember line"
+	habitable 425.92
+	link Astrius
+	asteroids "small rock" 2 1.536
+	asteroids "medium rock" 3 3.144
+	asteroids "large rock" 2 3.504
+	asteroids "small metal" 4 2.304
+	asteroids "medium metal" 37 1.704
+	asteroids "large metal" 7 3.384
+	trade Clothing 320
+	trade Electronics 740
+	trade Equipment 550
+	trade Food 580
+	trade "Heavy Metals" 830
+	trade Industrial 615
+	trade "Luxury Goods" 1110
+	trade Medical 850
+	trade Metal 170
+	trade Plastic 370
+	fleet "Small Alteran Merchant" 1100
+	fleet "Large Alteran Merchant" 2100
+	fleet "Alteran Corporate" 5500
+	fleet "Alteran Surveillance" 800
+	fleet "Small Alteran Navy" 1600
+	fleet "Large Alteran Navy" 2700
+	fleet "Small Alteran Logistics" 2400
+	fleet "Large Alteran Logistics" 4700
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/dust5
+		distance 183
+		period 47.9814
+	object Aurelis
+		sprite planet/ice3
+		distance 508.64
+		period 222.337
+		object
+			sprite planet/callisto
+			distance 164
+			period 20.0843
+	object
+		sprite planet/cloud8
+		distance 887.6
+		period 512.533
+	object
+		sprite planet/gas16
+		distance 1379.64
+		period 993.218
+	object
+		sprite planet/dust4
+		distance 4046
+		period 4988.1
+
+system Witnonia
+	pos 778.157 259.198
+	government Altera
+	attributes "draconic rim"
+	habitable 1080
+	link Gargantua
+	link "Luminus Draconem"
+	link Sidonia
+	asteroids "medium rock" 105 4.38
+	asteroids "large rock" 1 1.92
+	asteroids "small metal" 44 2.04
+	asteroids "medium metal" 12 2.52
+	asteroids "large metal" 7 3.3
+	trade Clothing 310
+	trade Electronics 790
+	trade Equipment 560
+	trade Food 470
+	trade "Heavy Metals" 810
+	trade Industrial 770
+	trade "Luxury Goods" 1280
+	trade Medical 550
+	trade Metal 360
+	trade Plastic 420
+	fleet "Small Alteran Merchant" 650
+	fleet "Large Alteran Merchant" 1150
+	fleet "Alteran Corporate" 1700
+	fleet "Alteran Surveillance" 700
+	fleet "Small Alteran Navy" 850
+	fleet "Large Alteran Navy" 1500
+	fleet "Small Alteran Logistics" 2300
+	fleet "Large Alteran Logistics" 4000
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/desert5
+		distance 195.64
+		period 33.3069
+	object
+		sprite planet/ganymede
+		distance 389.88
+		period 93.7011
+	object Lykos
+		sprite planet/rock1
+		distance 1063.72
+		period 422.269
+	object
+		sprite planet/gas5
+		distance 1731.97
+		period 877.321
+		object
+			sprite planet/desert4
+			distance 235
+			period 11.9798
+		object
+			sprite planet/miranda
+			distance 324
+			period 19.3939
+
+system Xanos
+	pos 594.012 273.461
+	government Altera
+	attributes "outer altera"
+	habitable 320
+	link Ida
+	link Kyteka
+	link "Luminus Alteran"
+	link Ocharia
+	link Selphius
+	asteroids "medium rock" 1 1.3104
+	asteroids "large rock" 1 3.4524
+	asteroids "medium metal" 3 3.4524
+	asteroids "large metal" 3 3.4524
+	trade Clothing 280
+	trade Electronics 760
+	trade Equipment 630
+	trade Food 460
+	trade "Heavy Metals" 1100
+	trade Industrial 710
+	trade "Luxury Goods" 1233
+	trade Medical 590
+	trade Metal 470
+	trade Plastic 350
+	fleet "Small Alteran Merchant" 500
+	fleet "Large Alteran Merchant" 900
+	fleet "Alteran Corporate" 1200
+	fleet "Alteran Surveillance" 700
+	fleet "Small Alteran Navy" 850
+	fleet "Large Alteran Navy" 1500
+	fleet "Small Alteran Logistics" 1600
+	fleet "Large Alteran Logistics" 3100
+	object
+		sprite star/m0
+		period 10
+	object Linirea
+		sprite planet/forest6-b
+		distance 319.89
+		period 127.934
+		object
+			sprite planet/tethys
+			distance 177
+			period 18.9423
+	object
+		sprite planet/gas6
+		distance 869.33
+		period 573.142
+	object
+		sprite planet/desert4
+		distance 1325.58
+		period 1079.18
+	object
+		sprite planet/gas0
+		distance 2621.59
+		period 3001.46
+		object
+			sprite planet/miranda
+			distance 274
+			period 13.2918
+
+system Zephyrius
+	pos 480.288 233.866
+	government Altera
+	attributes "ember line"
+	habitable 233.28
+	link Astrius
+	link Basilus
+	asteroids "small rock" 7 4.5144
+	asteroids "medium rock" 27 6.7203
+	asteroids "large rock" 8 5.7456
+	asteroids "small metal" 35 6.8229
+	asteroids "medium metal" 108 7.0794
+	asteroids "large metal" 8 6.0534
+	trade Clothing 240
+	trade Electronics 800
+	trade Equipment 570
+	trade Food 430
+	trade "Heavy Metals" 870
+	trade Industrial 640
+	trade "Luxury Goods" 1040
+	trade Medical 710
+	trade Metal 250
+	trade Plastic 390
+	fleet "Small Alteran Merchant" 2800
+	fleet "Large Alteran Merchant" 4000
+	fleet "Alteran Surveillance" 1050
+	fleet "Small Alteran Navy" 2500
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/desert0
+		distance 211.89
+		period 80.7769
+	object
+		sprite planet/fog0
+		distance 475.25
+		period 271.334
+	object
+		sprite planet/cloud7
+		distance 760.01
+		period 548.719
+	object
+		sprite planet/gas9
+		distance 1049.22
+		period 890.064
+	object
+		sprite planet/gas10
+		distance 1407.98
+		period 1383.62
+	object
+		sprite planet/gas7
+		distance 3928.23
+		period 6447.87
+
+planet Asuras
+	attributes factory "outer altera" textiles urban
+	landscape land/city6
+	description `Asuras is the most populous of the Alteran worlds and an unchallenged industrial center with over 20 billion inhabitants. Unlike most Alteran core worlds, there doesn't seem to be much beauty to be found. Large factory complexes can be found everywhere, and the residential sections are designed for mass housing, rather than looks. There is little greenery to be found in the cities themselves.`
+	description `	During the last Alteran war, Asuras was the target if intense bombing and while nature has recovered, sometimes even more than before, the same can't be said for the inhabited parts of the planet. Although that is in part due to the decentralization plan, implemented after the war.`
+	spaceport `In part due to the traffic and in part for efficiency's sake, several spaceports were sprinkled around the planet. One of them, usually considered the main spaceport, is located in the administrative capital of the planet. It is as disgusting as it is massive and is made up of simple, purpose-built hangars and terminals, surrounded by large multi-purpose landing pads.`
+	shipyard "Alteran Basic"
+	outfitter "Alteran Advanced"
+
+planet Atlantis
+	attributes "alteran paradise" "lantean cluster" fortified rich tourism
+	landscape land/beach11-harro
+	description `On this planet, mostly covered in water, floating in the middle of the ocean is the city of Atlantis, a former and presumably still functional Alteran city-ship. It follows a general star shape with arms several kilometers in length with towering skyscrapers on top. Due to both the history and topography of this world, it's still the population center, in fact, apart from a few settlements around the coastal areas in proximity to Atlantis there really isn't much going on. No actual manufacturing and very little mining, instead, the nature is practically untouched.`
+	description `	Being a ship, the city is equipped with a shield system, as well as several other defensive measures. During the last war, the Atlantis was submerged in its entirety, making it an unviable target and an incredibly safe location, resulting in exorbitant housing prices, quite similar to the human paradise worlds.`
+	spaceport `The spaceport is placed around the city on its arms and appears to be well guarded, not only by the military personnel present, but also by the air support checking every ship before landing. Unlike your usual human spaceport, everything is highly organized here and almost eerily quiet, the personnel immediately take care of both yourself and your fleet.`
+	spaceport `	Even the landing terminal is unnecessarily luxurious in design and not a single step behind the rest of the city.  The spaceport bar is very well located, offering great views of the spaceport and the surrounding ocean. The food and drinks here leave nothing to be desired, even considering the prices.`
+	shipyard "Alteran Basic"
+	outfitter "Alteran Basic"
+
+planet Aurelis
+	attributes "ember line" military mining
+	landscape land/dmottl1
+	description `Aurelis, in the Verangia system, on the outermost edge of Alteran space, is a mineral rich world that is stuck in an almost permanent winter. Its oceans and hills are covered by ice throughout most of the year. Despite all the snow and ice, it carries a sizeable population, heavily engaged in mining operations.`
+	description `	The Alteran Military also has a heavy presence on Aurelis. Aurelis' gravity is particularly strong, which caused problems initially, but has resulted in a genetically different, unusually well-built population. As such, the planet is very attractive for the army, as grounds for both training and recruitment of foot soldiers.`
+	spaceport `Landing in the Aurelis spaceport is actually quite difficult, the port itself isn't too big or busy, but the low temperatures and the regular snowfall cause the spaceport to be buried under snow for most of the time. The spaceport agency on Aurelis is unable to keep up with the snow during storms and their immediate aftermath. To combat this, the spaceport was expanded with a heated section, however, due to the costs involved, the local government has decided against rebuilding the whole spaceport to install this system everywhere.`
+	shipyard "Alteran Advanced"
+	outfitter "Alteran Advanced"
+
+planet Caelum # Naharis
+	attributes "central rim" farming
+	landscape land/valley12-harro
+	description `Caelum is mainly an agricultural world with a population of around one billion and provides a significant portion of the Alteran Core’s food. Its proximity to the Alteran Core and ideal landscape for agriculture have resulted in very heavy agriculture, covering most of the planet's plains. The natural biosphere is present in the cold or mountainous Regions, as well as some nature reserves. As the destruction of the biosphere would have caused an ecosystem collapse, a lot of effort was put into developing technologies that keep the ecosystem alive, albeit artificially.`
+	description `	Apart from a few large cities, the population is spread in smaller clusters around the planet, providing a local workforce for the agricultural sector. The cities are made up of buildings with greenery on their walls and roofs. In recent times, attempts have been made to shift away from agriculture and rebuild the natural ecosystem.`
+	spaceport `Most of the Freight traffic is handled by the main spaceport, with intra-planetary transport of the good to the spaceport via an advanced, efficient and fast rail system. As such, a large portion of the traffic here is made up of freighters, landing on pads around freight terminals which are connected to the rail network. Both the freight and passenger terminals were designed to remind visitors of agriculture while simultaneously supplying space for the local ecosystem.`
+
+planet Celestis
+	attributes "inner altera" military rich tourism urban
+	landscape land/city7
+	description `Celestis is a highly populous and economically powerful world, with a significant portion of its wealth and power stemming from its position as the Alteran capital world. It's located at the center of the original Alteran territory. For a planet this densely populated, it is covered in a very large amount amounts of both natural and artificial greenery. Significant portions of the planet are left practically untouched, and the ocean is as clean as could be.`
+	description `	Being the Alteran capital, Celestis is the seat of government for the Alteran Inner Core and Altera as a whole. The governmental complex is not too far from the spaceport, right next to the waterfront and is generally busy.`
+	spaceport `The spaceport is an architectural masterpiece, both beautiful and efficient, more than capable of handling the business it gets. It's positioned on an artificial extension into the ocean, giving a great view of the city while descending.`
+	spaceport `	Rather than building up, the Alterans decided to go down, so the majority of the spaceport is located beneath the ocean. The landing pads also act as lifts, moving ships into the lower levels, where they can be parked while the other vessels land and take off up top.`
+	spaceport `	Apart from the landing pads, there a several buildings topside, most notably an air control tower, with a bar on one of the upper floors.`
+	shipyard "Alteran Advanced"
+	outfitter "Alteran Advanced"
+
+planet Dakara
+	attributes "ember line" mining
+	landscape land/badlands0
+	description `Dakara is a very rocky and sandy world, used almost exclusively for mining purposes. It used to be far greener, but ended up a bit too close to the sun, resulting in higher temperatures and little rainfall. Members of the resident population can be easily recognized by their darker skintone, compared to the usual, almost white, Alteran skintone.`
+	description `	The buildings have only few windows and large air-conditioners and garages on their roofs, to reduce heat and radiation damage coming from the sun. To take it a step further, the designers of the initial building strategy ensured that even the tiniest building can be reached either by a protected above-ground walkway or an underground path.`
+	spaceport `The spaceport is located in a hill, right next to the city, with what looks like a landing strip leading the spaceships into the hill. Even though the spaceport is located underground, it doesn't feel cramped at all and considering that this is a mining world's spaceport, it is suprisingly clean and most certainly less dusty than outside. Its underground location improves insulation and cooling efficiency, resulting in an almost pleasant temperature. Unsuprisingly, the view is rather limited.`
+
+planet Draconis
+	attributes "draconic cluster" factory fortified mining urban
+	landscape land/city14-sfiera
+	description `Draconis is the eastern co-capital of the Alteran Empire. It was initially used for regular mining, as it was a mineral rich world. Then Draconium was discovered on this world, making it one of the few worlds with known deposits of Draconium. There are multiple large cities located on the main continent and some of the larger mining complexes can even be seen from space.`
+	description `	At this point, Draconis is no longer just a mining world, but has been appointed as the seat of one of the progenitors, who rule the eastern space from here. It is one of the most populated and economically strongest worlds of the Alterans.`
+	spaceport `Multiple spaceports can be found on Draconis, though the commercial one is by far the largest. It appears to be very busy, but the Alteran government has imposed strict traffic regulations, resulting in an efficient, high capacity spaceport. The spaceport bar is located right next to a park, making it a very attractive and surprisingly quiet location.`
+	shipyard "Alteran Advanced"
+	outfitter "Alteran Advanced"
+
+planet Eidolon
+	attributes "draconic rim" farming
+	landscape land/sky9
+	description `WIP`
+	spaceport `WIP`
+
+planet Elarum
+	attributes "ember line" factory urban
+	landscape land/city8
+	description `Elarum lies in the Selphius system, only two jumps from Altera and has profited greatly from its position as the direct connection between the Alteran core and the Borean sector.`
+	description `	The system of Selphius lies on the Alteran Ember Line, a set of systems whose stars show properties similar those in the Ember Waste. The star at the center of this system is dying and the effects can already be felt on Elarum, which has put an end to the planet's economic boom.`
+	spaceport `As the dying star has gotten rather unstable, the spaceport has recently undergone several modifications to counter sudden bursts of radiation. Most of the landing pads are covered by shield systems with a short activation procedure.`
+
+planet "Forta Dracone"
+	attributes "draconic cluster" draconium farming military mining moon
+	landscape land/nasa0
+	description `Considering the importance of Draconis and its Draconium deposits, the moon orbiting Draconis is used as a large military base, protecting not only the Draconis, but also the surrounding systems from potential threats. While the moon looks barren from space, it is actually inhabitable and a few navy-owned farms can be seen while landing.`
+	spaceport `The spaceport looks exactly as expected from a military spaceport, a miriad of landing pads with a slightly lesser number of large hangars and large roads connecting them. Nearly all of the ships here are warships, except for a few freighters, most of which belong to the navy as well. Surprisingly, the personnel appears to be very friendly to anyone visiting here.`
+	outfitter "Alteran Advanced"
+	"required reputation" 200
+
+planet "Guardia Alpha"
+	landscape land/nasa0
+	description `Alteran Border Post`
+	spaceport `Alteran Border Post`
+
+planet Halcyon
+	attributes "alteran paradise" "lantean cluster" rich
+	landscape land/fields6
+	description `Halcyon is the most expensive Alteran world, overshadowing even Atlantis. It's one of the few terraformed Alteran worlds and very sparsely populated. There is a small city, located around the public spaceport, but a significant part of the population is spread around the planet in large estates.`
+	spaceport `The public spaceport was designed specifically to demonstrate the wealth of the people on Halcyon. It is much larger than necessary and has any luxury you could imagine. A significant portion of the foot traffic is made up of spaceport personnel, tasked with caring for the arrivals and departures, guiding them and handling their luggage.`
+	spaceport `	Unlike on most Alteran worlds, the spaceport only sees part of the traffic. Due to the rich and spread-out population, many ships head directly to private landing pads at the estates.`
+
+planet Heliopolis
+	attributes factory "inner altera" urban
+	landscape land/city2
+	description `The third of the Alteran Inner Core worlds, Heliopolis, is a very sunny world, with surprisingly mild temperatures. As with most of the Alteran Core, Heliopolis is a densely populated world and of great importance to the Alteran economy. It was among the first worlds to be settled and predates the time of the Alteran city ships.`
+	description `	Similar to other Alteran worlds, the cities are made up of mid-range skyscrapers and parks. The public transport network is well planned out, efficient and reliable, resulting in very little traffic on the roads. In fact, the majority of roads have more park area than actual road.`
+	description `	As part of the Inner Core, Heliopolis was an important but well protected target during the last war. It was left practically untouched, with the memorials being the only reminder of the war.`
+	spaceport `The main spaceport on Heliopolis looks like it was grown over time and not built as one piece, resulting in a somewhat Frankenstein-like landing area with even different surfaces for the landing pads and green areas of all shapes and sizes mixed in. It does have a certain wild beauty to it that other Alteran spaceports tend to lack, as they are highly organized and planned out.`
+	spaceport `	A large park surrounds the spaceport on three sides, with the fourth side bordering a river and its promenade, likely in order to keep the spaceport's noise pollution down. From the bar, located in a corner between the promenade and the park, you have a gorgeous view of not only the main city and its spaceport, but also the sunset behind the skyline.`
+	shipyard "Alteran Basic"
+	outfitter "Alteran Basic"
+
+planet Linirea
+	attributes fortified "inner altera" military
+	landscape land/forest2
+	description `Part of the Alteran Outer Core, Linirea was a prime target during the last war. It's position as one of three entrances to the Alteran Core and close proximity to Celestis makes it strategically important. During the pre-war tensions, the local capital was designated a fortress city and subsequently re-built over a relatively short time span. The result was a city following a grid pattern, capable of lowering the buildings underground, to keep the populace safe from bombings.`
+	description `	Linirea has a rather warm climate and a green landscape, filled with forests and rolling hills. The local wildlife is mostly harmless and peaceful, making it a fairly popular world to live on.`
+	description `	While Wyvernhaven is only 2 jumps away, the military still has a large presence on Linirea, as it acts as a barrier for Celestis and the other Alteran core worlds. The planet has several different invasion countermeasures, some of which are hidden under normal circumstances.`
+	spaceport `The spaceport is located in the outskirts of the largest city and built similarly to the city, with landing pads slightly below ground. In case of an attack, the pads can be covered and moved even lower if necessary. Since they are underground, the terminals consist of long, well decorated pathways with few windows, exclusively towards the landing pads and a handful of halls with open spaces or greenery.`
+	spaceport `	A significant portion of the spaceport is built entirely different, with several vertical entry tunnels of varying proportions leading to an underground spaceport. This is the military spaceport and generally closed off to civilians.`
+	shipyard "Alteran Advanced"
+	outfitter "Alteran Advanced"
+
+planet Lykos
+	attributes "draconic rim"
+	landscape land/bwerner3
+	description `WIP`
+	spaceport `WIP`
+
+planet Meldinium
+	attributes "central rim" mining
+	landscape land/mountain24-spfld
+	description `The Landscape on Meldinium is sprinkled with large-scale mining facilities, both active and exhausted and there is little vegetation on the surface. Most of the rather small population, compared to other planets in the Alteran Sector, is concentrated in cities in close proximity to these mines.`
+	description `	Meldinium's slightly acidic Atmosphere is still breathable but has become increasingly unhealthy for Alterans. While the atmospheric composition was not ideal to begin with, the mining activity has pushed it closer to the limit for habitability. As such, strict regulations regarding protection against the environment/atmosphere are in place for buildings and vehicles. The population on Meldinium works almost exclusively in the mining industry or necessary services and large indoor greenspaces are present in every city, to ensure a healthy lifestyle for the Inhabitants.`
+	spaceport `As is expected from a mining world like Meldinium, the spaceport was constructed with large freighters in mind, making up a significant amount of the traffic here. All the landing pads can be reached via a network of pressurized hallways, minimizing atmospheric contact.`
+
+planet Noctillum
+	attributes "borean cluster" oil
+	landscape land/fog10
+	description `The world of Noctillum is covered by dense forests in the warmer portions.`
+	spaceport `Noctillum's spaceport is rather small and most of its buildings are partially made from wood.`
+
+planet Noricum
+	attributes "borean cluster" military mining urban
+	landscape land/beach11-harro
+	description `One of the Alteran sector capitals, Noricum of the Borean Sector is one of the more developed worlds in Altera. It was originally settled as a mining world, and even now, food is harder to come by than in other regions of Altera. Over time, Noricum has developed a significant population and gained importance, especially since becoming the administrative capital of the inner Alteran worlds, the Borean Sector.`
+	description `	Noricum is also home to a major Alteran naval base, mainly due to its location close to the galactic core and the Borean Sector, and bordering the presumably uninhabited Ember Waste. While the system itself does not actually count as a border system, most of the Borean Sector is within jump-drive range, allowing rapid reactions to any threats, especially around the sector border.`
+	spaceport `The spaceport reflects the state of Noricum pretty well, several of the larger landing pads are reserved specifically for food-related freight ships. The military takes up another large portion of the spaceport, though mainly with transport vessels and smaller warships. The spaceport seems fairly well guarded, not from actual employed security, but simply because of the amount of military personnel present at all times, sitting around the spaceport.`
+
+planet Okeanos
+	attributes "draconic rim"
+	landscape land/beach4
+	description `WIP`
+	spaceport `WIP`
+
+planet Orario # Kaitac
+	attributes farming mining "outer altera" textiles urban
+	landscape land/city4
+	description `Located in the Nasconya system, Orario is the most populous world north of the Alteran core and sits on the only internal connection between the Draconic Sector and the rest of Altera. Before the expansion into the Draconic sector, Nasconya was a border system, strategically important to begin with and the flow of trade since the Great War has only made it more important. This ideal position has allowed the planet of Orario to not just recover from the war, but flourish beyond imagination, with little scars still visible.`
+	description `	The several billion inhabitants live in cities of various sizes, spread around the planet, many of which did not exist before the war. Orario's economy is generally balanced, excluding trade, with textile industry, agriculture and mining making up the local economy.`
+	spaceport `As is the case with highly populated worlds, Orario has several spaceports located near the larger cities, although the “main” spaceport is located in the largest city. The planet's growth is also visible in the spaceport which is made up of multiple inter-connected terminals and landing pad groups of varying ages, built over the years. Due to the planet's importance, the military occupies a significant part of the main spaceport and has a large military base with its own spaceport located near one of the other large cities.`
+	shipyard "Alteran Advanced"
+	outfitter "Alteran Advanced"
+
+planet "Orbis Alteran"
+	attributes "altera quarg" quarg ringworld
+	landscape land/station19
+	description `This is a complete Quarg ringworld, the product of millennia of construction effort which has consumed every other stellar object in this system in order to provide the raw materials. The inner edge of the ring is filled with solar panels, hydroponic gardens, living quarters, and sunlit common spaces. The outer edge contains hangars and docks for ships, and storage facilities for cargo.`
+	description `	Massive station-keeping thrusters on the ring's exterior keep its orbit from becoming unstable.`
+	spaceport `If this section of the ring is any indication, there must be trillions of Quarg here. Since the construction work on the ring has long since ended, many of them seem to spend their time with creative or scientific endeavors instead. The spaceport is decorated with artwork of every imaginable kind: sculptures, mobiles, paintings, music, and even one hallway that cycles through various artificial odors, some of them intensely unpleasant to your human senses.`
+
+planet Orilla
+	attributes mining "outer altera"
+	landscape land/myrabella3
+	description `Orbiting Othala is the moon of Orilla, a settled world lacking an atmosphere. The population is very low and spread around the planet in several dome complexes. Most of the goods here are imported, with a small part of the demand for food being covered by local agricultural domes. The moon was settled for mining the mineral rich ground and even now, several millennia later this is still the case.`
+	spaceport `The spaceport on Orilla is very small and split in two separate parts, a domed and an open section. Small ships can use the domed section with an airlock system through which the ship is transported after landing. For larger vessels, this kind of system was simply not feasible, so they have to land in the open section, where a pressurized bridge is connected to the ship.`
+
+planet Othala
+	attributes factory "outer altera" research urban
+	landscape land/myrabella3
+	description `Othala is one of two settled worlds in the Ida system and located just 1 jump away from Celestis. It's best described as a tech world, with an industry trimmed towards innovating and manufacturing outfits for spaceships, planetary transport systems, mining equipment, or even space stations.`
+	description `	The landscape on Othala is particularly hospitable, so most of the population is located in one of 5 cities on the same part of the planet. Outside of these cities the terrain is quite rocky, and the temperature varies significantly depending on time and weather. A long time ago, there was an attempt to terraform Othala, but it ended in failure due to the bombings during the last war. The cities are located in partially terraformed sections with artificial weather.`
+	spaceport `As with any world with manufacturing, the spaceport sees a lot of freight traffic, in particular raw materials from the orbiting moon of Orilla. While the spaceport was not initially built in the city center, the industry's preference for spaceport proximity has resulted in the port being surrounded by industrial complexes.`
+	spaceport `	After the war, the spaceport was repaired and expanded in several, identifiable steps, with the military section in particular having grown significantly, as the Ida system was among those that fell to the enemy, leaving the Inner Core open to attacks.`
+
+planet Raetorum
+	attributes farming "outer altera" urban
+	landscape land/mountain5
+	description `Raetorum was founded using an Alteran city-ship which can still be identified by its central spire, towering over most buildings in its surroundings. The ship itself is well integrated into the city and as such no longer functional. Compared to other worlds in the Alteran Core, Raetorum is less densely populated and less populated in general. Most of the populace lives in cities concentrated on one continent, in relative proximity to the spaceport.`
+	description `	As there was no need for intra-planetary defenses, most of the cities were set up in large plains, the ideal building locations. The areas surrounding the cites are used for food production.`
+	spaceport `While the spaceport used to be located on one of the city-ship's arms, this is no longer the case. Instead, a new, high-capacity spaceport was built in the outskirts of the planetary capital. The current spaceport is a simple but pretty structure, organized like a snowflake, with the larger vessels landing far away from the center.`
+
+planet "Stacia Centoria"
+	attributes "borean cluster" mining station
+	landscape land/station35
+	description `At the center of the Borean sector lies the Troyca system, the asteroid activity has made all possible candidates uninhabitable. With the resources on both the planets and the surrounding asteroids, it would have been quite wasteful to not setup a mining base. Towards that end the responsible parties opted for a space station rather than a planetary base. At the center of the system's activity lies Stacia Centoria, a well built and high capacity mining station, refueling, repairing and processing almost all mining vessels in the Troyca system.`
+	spaceport `Were it not for the stations defensive systems, the approach to Stacia Centoria would be by far the most dangerous in Alteran space. As it would be unfeasible to build a station capable of housing heavy freighters, the spaceport is split in two, with several docks on the outside and a handful of hangars for smaller vessels. The spaceport is very busy, with most of the activity coming from the mining vessels processed here.`
+
+planet Turicum
+	attributes "alteran paradise" "lantean cluster" rich textiles tourism urban
+	landscape land/mountain14-sfiera
+	description `Turicum, probably the least expensive of the Alteran Paradise Worlds, is full of rolling green hills and rocky mountains, resulting in more weather variation than on Atlantis and Halcyon, including some less pleasant snow storms. As a result, the tourism industry is very large, both during summer and winter, giving Turicum a more casual economy. Several large cities are visible from space which have a large parks and green zones placed in their interior, reducing the population density.`
+	description `	While some material industry is present here, Turicum is a net importer of almost everything. Additionally, a significant portion of the planet is still in its natural state and will stay this way due to the environmental protection laws in place.`
+	spaceport `On the other side of a hill from one of the cities, connected by a maglev line, lies the only public spaceport on this world. It's made up of several landing areas and terminals for spaceships. Due to the tourism on this world, a lot of the traffic is made up of transport vessels. As such, a large section of the spaceport is trimmed towards and reserved almost exclusively for passenger transports. The military presence on Turicum on the other hand is barely large enough to justify a military section at the spaceport.`
+	outfitter "Alteran Basic"
+
+planet Vanir
+	attributes "outer altera" research
+	landscape land/snow2
+	description `The permafrost world of Vanir is just outside of the Alteran Inner Core and can be reached from Celestis with just 2 jumps. It hasn't seen an ice-free day in the last millennium and is nearly inhospitable as a result. In its past, Vanir used to be abundant with life, though for an unknown reason, the planet started cooling, becoming a frozen wasteland, with no end in sight, even at this point in time.`
+	description `	As a result of the ice age, most of the cities have been abandoned over the course of the last few millennia, except for a few smaller cities, which have had a dome built over them, to allow greenery on this white planet. They house researchers working in the laboratories, which benefit from the low legal restrictions of this world. Additionally, Draconium deposits have been found on Vanir, resulting in several mines spread over the planet. The Alteran Military conducts invasion training operations on Vanir as well.`
+	spaceport `Compared to the other Alteran spaceports, this one is smaller and less open. Due to the planet's hostile nature, there are several gated horizontal entrances to some kind of underground spaceport, protecting the ships from the storms raging outside. This has however resulted and a less efficient design, only capable of properly handling small ships, as larger vessels don't fit through the gates. Consequently, only few large ships can be seen in the sky, and they only land near the military facilities, keeping their power and shields on for protection.`
+	outfitter "Alteran Advanced"
+
+planet Wyvernhaven
+	attributes factory "inner altera" military urban
+	landscape land/nasa1
+	description `Wyvernhaven is one of the Alteran Central Worlds and generally regarded as the second most important planet, due to it being the seat of the United Alteran navy. This is immediately noticeable while landing as well, as most of the ships you can observe are flying under military colors and even the majority of civilian grade ships are flying for the Navy.`
+	description `	While the military has a strong presence here, Wyvernhaven is also one of the more populous Alteran worlds, with a population lower than that of Celestis, but still relatively high, as it was settled millennia ago. Since a large part of the economy and populace are based around the military, Wyvernhaven can barely be called a civilian world.`
+	spaceport `The civilian section of the spaceport is by no means small, mostly because of the amount of freighters coming in for the shipyards. As a result, the landing pads are very large and the surrounding infrastructure was designed to support highly efficient loading and transportation.`
+	spaceport `	The military section, however, is even larger than the civilian section, built to handle a massive fleet. A large portion of the Alteran fleet is generally stationed here, both offensive and defensive fleet compositions can be seen on the ground and above, in the sky. The Alteran Military Shipyards produce a considerable percentage of their ships here, the medium and heavy warships in particular have a large presence in the hangar.`
+	shipyard "Alteran Advanced"
+	outfitter "Alteran Advanced"
+
+planet Zirkonis
+	attributes "draconic cluster"
+	landscape land/beach1
+	description `WIP`
+	spaceport `WIP`
+
