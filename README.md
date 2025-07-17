@@ -2,7 +2,7 @@
 
 Selected collection of inactive (not touched for years) or abandoned (deleted repository) projects which introduce material for new species. Archived for inspiration and hopefully some kind of revival.
 
-Actually there are more interesting species out there in the wild. This archive just contains those, for which I more or less have a rough ideas on what to do next. So, the list may be extended.
+Actually there are more interesting species out there in the wild. This archive just contains those, for which I more or less have a rough ideas on what to do next. So, the list may be extended later.
 
 | Last Update | Name             | Author                          | Status   |
 |-------------|-------------------|----------------------------------|-----------|
