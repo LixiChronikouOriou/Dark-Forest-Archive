@@ -9,6 +9,7 @@ Actually there are more interesting species out there in the wild. This archive 
 | 2019-02-02  | Terrans           | TimCabbage                       | inactive  |
 | 2019-02-25  | Octyl             | Ferociousfeind                   | inactive  |
 | 2020-01-12  | Eternals          | Comnom                           | abandoned |
+| 2020-06-13  | *no name*         | Loyse                            | inactive  |
 | 2021-05-14  | Galactic Couriers | 10010101001                      | inactive  |
 | 2022-07-31  | The Enclave       | Storm-Crow01, patch: 1010todd    | inactive  |
 | 2022-10-06  | Ertluk            | ZBok                             | abandoned |
