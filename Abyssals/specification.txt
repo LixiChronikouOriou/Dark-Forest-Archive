@@ -1,0 +1,534 @@
+
+Abyssals
+Creatures whose body resembles an Urchin with short spikes, with four long limbs that it uses for locomotion, or used as arms and hands. The "main body", the urchin-like structure, is about half a meter in diameter, Aristotle's lantern facing the ground. The limbs usually keep the main body at about over a meter off the ground, but can stretch to almost double that.
+Homeworld was destroyed shortly after they managed to escape to other systems, sending many shuttles in different directions
+
+Abyssal Trench
+An area of the galaxy with an unusually high amount of black holes, though some other types of stars can be found. Extremely poor in natural mineral resources. System hazards via ships like Kor nanobots, but only deal hull damage. These hazards coupled with the instability of their home system's black hole led to the homeworld's destruction or something.
+
+Organization
+After splitting into several different directions in their shuttles, centuries later they've grown to be much like ancient greece, with enclaves of 1-system governments that are independent from one another, though may trade, ally, blockade, or go to war. Ingame would be represented by them having different swizzles but the same government color for planets (go "Abyssal", " Abyssal ", "  Abyssal  "... as needed)
+
+
+ship "Wisp"
+	sprite "ship/wisp a"
+	thumbnail "thumbnail/wisp a"
+	attributes
+		category "Transport"
+		"cost" 230000
+		"shields" 1100
+		"hull" 100
+		"required crew" 1
+		"bunks" 3
+		"mass" 61
+		"drag" .8
+		"heat dissipation" .45
+		"fuel capacity" 200
+		"ramscoop" 70
+		"cargo space" 32
+		"outfit space" 137
+		"weapon capacity" 9
+		"engine capacity" 45
+		weapon
+			"blast radius" 20
+			"shield damage" 3000
+			"hull damage" 4000
+			"hit force" 200
+	outfits
+		"Hyperdrive"
+		"Abyssal Cell" 2
+		"Miniature Battery Pack" 4
+		"Abyssal Core"
+		"Primordial Engine Set" 3
+		"Rapidfire Rocket Launcher"
+		"Rapidfire Rocket" 130
+	gun 0 -29
+	engine 12 27
+	engine -12 27
+	engine 21.5 15
+	engine -21.5 15
+
+ship "Wisp" "Wisp B"
+	sprite "ship/wisp b"
+	thumbnail "thumbnail/wisp b"
+	attributes
+		category "Transport"
+		"cost" 230000
+		"shields" 1100
+		"hull" 50
+		"required crew" 1
+		"bunks" 6
+		"mass" 60
+		"drag" .75
+		"heat dissipation" .43
+		"fuel capacity" 200
+		"ramscoop" 75
+		"cargo space" 16
+		"outfit space" 137
+		"engine capacity" 60
+		weapon
+			"blast radius" 20
+			"shield damage" 3000
+			"hull damage" 4000
+			"hit force" 200
+	outfits
+		"Hyperdrive"
+		"Abyssal Cell" 2
+		"Miniature Battery Pack" 2
+		"Abyssal Core"
+		"Primordial Engine Set" 4
+	engine 12.5 34
+	engine -12.5 34
+	engine 16.5 35.5
+	engine -16.5 35.5
+	engine 21.5 25
+	engine -21.5 25
+
+ship "Phantasm v1"
+	sprite "ship/phantasm v1"
+	thumbnail "thumbnail/phantasm v1"
+	attributes
+		category "Light Freighter"
+		"cost" 316000
+		"shields" 1400
+		"hull" 200
+		"required crew" 1
+		"bunks" 2
+		"mass" 79
+		"drag" .9
+		"heat dissipation" .4
+		"fuel capacity" 200
+		"ramscoop" 70
+		"cargo space" 64
+		"outfit space" 153
+		"weapon capacity" 23
+		"engine capacity" 49
+		weapon
+			"blast radius" 30
+			"shield damage" 4000
+			"hull damage" 5000
+			"hit force" 250
+	outfits
+		"Hyperdrive"
+		"Abyssal Cell" 2
+		"Miniature Battery Pack" 7
+		"Abyssal Core" 2
+		"Primordial Engine Set" 2
+		"Thrusting Set v1"
+	gun 0 -60
+	gun 17.5 -53.5
+	gun -17.5 -53.5
+	engine 20 56.5
+	engine -20 56.5
+
+ship "Phantasm v2"
+	sprite "ship/phantasm v2"
+	thumbnail "thumbnail/phantasm v2"
+	attributes
+		category "Light Freighter"
+		"cost" 730000
+		"shields" 1500
+		"hull" 180
+		"required crew" 2
+		"bunks" 4
+		"mass" 99
+		"drag" .95
+		"heat dissipation" .39
+		"fuel capacity" 200
+		"ramscoop" 70
+		"cargo space" 112
+		"outfit space" 178
+		"weapon capacity" 38
+		"engine capacity" 56
+		weapon
+			"blast radius" 50
+			"shield damage" 5000
+			"hull damage" 6000
+			"hit force" 300
+	outfits
+		"Hyperdrive"
+		"Abyssal Cell Array"
+		"Miniature Battery Pack" 4
+		"Abyssal Core" 3
+		"Primordial Engine Set" 2
+		"Thrusting Set v1"
+	gun 0 -71.5
+	gun 17.5 -66
+	gun -17.5 -66
+	engine 11.5 71
+	engine -11.5 71
+	engine 20.5 62
+	engine -20.5 62
+
+ship "Phantasm v3"
+	sprite "ship/phantasm v3"
+	thumbnail "thumbnail/phantasm v3"
+	attributes
+		category "Heavy Freighter"
+		"cost" 1256000
+		"shields" 1600
+		"hull" 120
+		"required crew" 2
+		"bunks" 5
+		"mass" 118
+		"drag" 1.2
+		"heat dissipation" .37
+		"fuel capacity" 300
+		"ramscoop" 70
+		"cargo space" 212
+		"outfit space" 199
+		"weapon capacity" 47
+		"engine capacity" 66
+		weapon
+			"blast radius" 70
+			"shield damage" 6000
+			"hull damage" 7000
+			"hit force" 400
+	outfits
+		"Hyperdrive"
+		"Abyssal Cell Array"
+		"Miniature Battery Pack" 6
+		"Abyssal Core" 3
+		"Primordial Engine Set"
+		"Thrusting Set v2"
+		"Steering Set v2"
+	gun 0 -79
+	gun 18 -73
+	gun -18 -73
+	engine 11 79
+	engine -11 79
+	engine 19.5 71
+	engine -19.5 71
+
+ship "Ghost"
+	sprite "ship/ghost"
+	thumbnail "thumbnail/ghost"
+	attributes
+		category "Light Warship"
+		"cost" 1734000
+		"shields" 2900
+		"hull" 240
+		"required crew" 2
+		"bunks" 6
+		"mass" 148
+		"drag" .87
+		"heat dissipation" .33
+		"fuel capacity" 300
+		"ramscoop" 90
+		"cargo space" 25
+		"outfit space" 244
+		"weapon capacity" 81
+		"engine capacity" 65
+		weapon
+			"blast radius" 60
+			"shield damage" 7000
+			"hull damage" 9000
+			"hit force" 500
+	outfits
+		"Hyperdrive"
+		"Abyssal Cell Array"
+		"Miniature Battery Pack" 3
+		"Abyssal Core" 2
+		"Primordial Engine Set"
+		"Thrusting Set v1"
+		"Steering Set v2"
+		"Creeping Mines Launcher" 2
+		"Creeping Mine" 28
+		"Rapidfire Rocket Launcher" 2
+		"Rapidfire Rocket" 260
+	gun 0 -39
+	gun 0 -39
+	gun 25 -38
+	gun -25 -38
+	turret 0 -3
+	engine 0 38.5
+	engine 25.5 37.5
+	engine -25.5 37.5
+
+ship "Wraith"
+	sprite "ship/wraith"
+	thumbnail "thumbnail/wraith"
+	attributes
+		category "Medium Warship"
+		"cost" 3800000
+		"shields" 4600
+		"hull" 490
+		"required crew" 5
+		"bunks" 12
+		"mass" 278
+		"drag" 1.3
+		"heat dissipation" .21
+		"fuel capacity" 400
+		"ramscoop" 100
+		"cargo space" 44
+		"outfit space" 412
+		"weapon capacity" 110
+		"engine capacity" 100
+		weapon
+			"blast radius" 100
+			"shield damage" 9000
+			"hull damage" 12000
+			"hit force" 1300
+	outfits
+		"Hyperdrive"
+		"Abyssal Cell Array" 2
+		"Miniature Battery Pack" 10
+		"Abyssal Core" 5
+		"Primordial Engine Set"
+		"Thrusting Set v2"
+		"Steering Set v2"
+		"Creeping Mines Launcher" 2
+		"Creeping Mine" 28
+	gun 24.5 -78
+	gun -24.5 -78
+	turret 0 -24
+	turret 0 -10
+	turret 0 4
+	turret 0 18
+	engine 14 72
+	engine -14 72
+	engine 43 77
+	engine -43 77
+
+
+outfit "Abyssal Cell"
+	category "Power"
+	cost 57000
+	thumbnail "outfit/abyssal cell"
+	"mass" 19
+	"outfit space" -19
+	"energy generation" 1.1
+	"heat generation" 1.2
+	description "In terms of energy generation, this small fuel cell is worse than even the outdated, similar technology used in human space. It does produce next to no heat, though..."
+
+outfit "Abyssal Cell Array"
+	category "Power"
+	"cost" 221000
+	thumbnail "outfit/abyssal cell array"
+	"mass" 57
+	"outfit space" -57
+	"energy generation" 3.3
+	"heat generation" 3.4
+	description "Simple enough a concept, coupling three Abyssal Cells together yields the triple energy generation. Although, oddly enough, the heat produced isn't three times as much as its smaller counterpart."
+
+outfit "Miniature Battery Pack"
+	category "Power"
+	cost 49000
+	thumbnail "outfit/miniature battery pack"
+	"mass" 3
+	"outfit space" -3
+	"energy capacity" 400
+	description "Though technically more space efficient than a few other batteries, the standard pack used in Abyssal ships is unreasonably expensive, due to their relatively low production rate."
+
+outfit "Abyssal Core"
+	category "Systems"
+	cost 83000
+	thumbnail "outfit/abyssal core"
+	"mass" 13
+	"outfit space" -13
+	"shield generation" .15
+	"shield energy" .075
+	description "Though it is very energy efficient, the fact that these shields offer so little protection means that stacking them is impractical. For what it offers, you're pretty sure the price is way too high."
+
+outfit "Primordial Engine Set"
+	category "Engines"
+	"cost" 134000
+	thumbnail "outfit/primordial engine set"
+	"mass" 15
+	"outfit space" -15
+	"engine capacity" -15
+	"turn" 99
+	"turning energy" .23.5
+	"turning heat" .27
+	"thrust" 2.9
+	"thrusting energy" .33
+	"thrusting heat" .35
+	"flare sprite" "effect/abyssal flare/tiny"
+		"frame rate" 1.2
+	"flare sound" "ion tiny"
+	description "The Abyssals seem to use engines strikingly similar to human Ion engines, and this is the smallest set of engines they employ, harkening back to when they originally left their home planet."
+
+outfit "Thrusting Set v1"
+	category "Engines"
+	"cost" 97000
+	thumbnail "outfit/thrusting set v1"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"thrust" 5.8
+	"thrusting energy" .59
+	"thrusting heat" .61
+	"flare sprite" "effect/abyssal flare/small"
+		"frame rate" 1.2
+	"flare sound" "ion small"
+	description "A collection of small thrusters."
+
+outfit "Steering Set v1"
+	category "Engines"
+	"cost" 73000
+	thumbnail "outfit/steering set v1"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"turn" 174
+	"turning energy" .31
+	"turning heat" .35
+	description "A collection of small steering engines."
+
+outfit "Thrusting Set v2"
+	category "Engines"
+	"cost" 137000
+	thumbnail "outfit/thrusting set v2"
+	"mass" 29
+	"outfit space" -29
+	"engine capacity" -29
+	"thrust" 11.1
+	"thrusting energy" 1
+	"thrusting heat" 1.2
+	"flare sprite" "effect/abyssal flare/medium"
+		"frame rate 1.1"
+	"flare sound" "ion medium"
+	description "This is the largest set of thrusters produced by the Abyssals."
+
+outfit "Steering Set v2"
+	category "Engines"
+	"cost" 106000
+	thumbnail "outfit/steering set v2"
+	"mass" 21
+	"outfit space" -21
+	"engine capacity" -21
+	"turn" 332
+	"turning energy" .61
+	"turning heat" 1
+	description "This is the largest outfit designed for steering the Abyssals produce. Although it's unlikely to see any substantial agility when used in other ships, these are very much capable of granting the lightweight Abyssal vessels incredible maneuverability."
+
+outfit "Creeping Mines Launcher"
+	category "Secondary Weapons"
+	cost 253000
+	thumbnail "outfit/creeping mines launcher"
+	"mass" 21
+	"outfit space" -21
+	"weapon capacity" -21
+	"gun ports" -1
+	"creeping mine capacity" 14
+	weapon
+		sprite "projectile/creeping mine"
+		sound "creeping mine"
+		ammo "Creeping Mine"
+		icon "icon/creeping mine"
+		"submunition" "CMine"
+		"split range" 700
+		"fire effect" "creeping mine fire"
+		"hit effect" "tiny exlosion"
+		"die effect" "tiny explosion"
+		"inaccuracy" 8
+		"lifetime" 3000
+		"reload" 75
+		"firing energy" 105
+		"firing heat" 37
+		"acceleration" .000001
+		"drag" .08
+		"missile strength" 30
+	description "Aeiou."
+
+outfit "Creeping Mine"
+	category "Ammunition"
+	cost 450
+	thumbnail "outfit/creeping mine"
+	mass .8
+	"creeping mine capacity" -1
+	description "Aeda."
+
+outfit "CMine"
+	weapon
+		sprite "projectile/creeping mine"
+		"hit effect" "medium explosion"
+		"die effect" "medium explosion"
+		"inaccuracy" 1
+		"velocity" 1
+		"lifetime" 240
+		"acceleration" .75
+		"drag" .25
+		"turn" 2
+		"homing" 3
+		"optical tracking" .5
+		"trigger radius" 300
+		"blast radius" 300
+		"shield damage" 800
+		"hull damage" 370
+		"hit force" 100
+		"missile strength" 30
+	description "Arg0naut_"
+
+outfit "Rapidfire Rocket Launcher"
+	category "Secondary Weapons"
+	cost 74000
+	thumbnail "outfit/rapidfire rocket launcher"
+	"mass" 9
+	"outfit space" -9
+	"weapon capacity" -9
+	"gun ports" -1
+	"rapidfire rocket capacity" 130
+	weapon
+		sprite "projectile/rapidfire rocket"
+		sound "rapidfire"
+		ammo "Rapidfire Rocket"
+		icon "icon/rapidfire"
+		"hit effect" "tiny explosion"
+		"die effect" "tiny explosion"
+		"inaccuracy" 18
+		"velocity" 12
+		"random velocity" 4
+		"lifetime" 50
+		"random lifetime" 25
+		"reload" 3
+		"firing energy" .14
+		"firing heat" 7
+		"shield damage" 38
+		"hull damage" 16
+		"hit force" 5
+		"missile strength" 2
+	description "TRE."
+
+outfit "Rapidfire Rocket"
+	category "Ammunition"
+	cost 77
+	thumbnail "outfit/rapidfire rocket"
+	"mass" .05
+	"rapidfire rocket capacity" -1
+	description "tree."
+
+outfit "Stormfire Battery"
+	category "Turrets"
+	cost 300000
+	thumbnail "outfit/stormfire"
+	"mass" 16
+	"outfit space" -16
+	"weapon capacity" -16
+	"turret mounts" -1
+	"required crew" 1
+	"stormfire round capacity" 2200
+	weapon
+		sprite "projectile/stormfire"
+		sound "explosion tiny"
+		ammo "Stormfire Ammo"
+		"hit effect" "bullet impact"
+		"inaccuracy" 4
+		"turret turn" 3.8
+		"velocity" 10.2
+		"lifetime" 45
+		"reload" 2
+		"firing energy" 5
+		"firing heat" 6
+		"shield damage" 7.3
+		"hull damage" 3.7
+	description "thonk."
+
+outfit "Stormfire Ammo"
+	plural "Stormfire Ammo"
+	category "Ammunition"
+	cost 5
+	thumbnail "outfit/stormfire round"
+	"mass" .001
+	"stormfire round capacity" -1
+	description "bonk."
