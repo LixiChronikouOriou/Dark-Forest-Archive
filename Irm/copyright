@@ -1,0 +1,47 @@
+﻿Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: N/A
+Upstream-Contact: N/A
+Source: N/A
+
+Files:
+ data/*
+Copyright: Darcy Manoel <darcman00@gmail.com>
+License: CC-BY-SA-4.0
+Comment: -
+
+Files:
+ images/flare/*
+ images/planet/*
+Copyright: Darcy Manoel <darcman00@gmail.com>
+License: CC-BY-SA-4.0
+Comment: Derived from works of Michael Zahniser <mzahniser@gmail.com>
+
+Files:
+ images/landscape/snowcap*
+Copyright: Greg Ghielmetti <https://mettimart.com>
+License: N/A
+Comment: Machapuchare "Fish Tail Mountain" at Sunrise, Annapurna Range, Nepal, https://www.reddit.com/r/travel/comments/60nol2/one_of_the_most_breathtaking_sights_i_have_even/
+
+Files:
+ images/landscape/ringworld*
+Copyright: ImaArtist <https://pixabay.com/de/users/imaartist-11400164/>
+License: Pixabay Content License <https://pixabay.com/service/license-summary>
+Comment: Derived from works of Michael Zahniser <mzahniser@gmail.com>
+
+Files:
+ images/outfit/tekina engine*.png
+Copyright: Darcy Manoel <darcman00@gmail.com>
+License: CC-BY-SA-4.0
+Comment: Derived from work by Evan Fluharty <Evanfluharty@gmail.com>
+
+Files:
+ images/scene/ring*
+Copyright: Darcy Manoel <darcman00@gmail.com>
+License: CC-BY-SA-4.0
+Comment: Derived from Hill's illustration "The Ring World of 'The Puppet Masters' by Larry Niven", https://commons.wikimedia.org/wiki/File:Ringworld.jpg
+
+Files:
+ images/outfit/keystone stabiliser*.png
+Copyright: Koranir <daniel@yoon.com.au>
+License: CC-BY-SA-4.0
+Comment: Derived from works of Michael Zahniser <mzahniser@gmail.com>
