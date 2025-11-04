@@ -6,7 +6,7 @@ The difference to the races section of the [Plugin Archive](https://github.com/H
 
 There might be interesting species out there in the wild. Feel free to contact me via issue or PR here on Github, or in the corresponding [Discord channel](https://discord.com/channels/251118043411775489/1432671335623954472) if you see something interesting to preserve.
 
-Thanks: 1010todd and The_Legendary_M for research help, and of course all authors.
+**Thanks**: 1010todd and The_Legendary_M for research help, and of course all authors.
 
 | Last Update | Name                | Author                           | Status    |
 |-------------|---------------------|----------------------------------|-----------|
@@ -26,17 +26,18 @@ Thanks: 1010todd and The_Legendary_M for research help, and of course all author
 | 2022-10-06  | Ertluk              | ZBok                             | abandoned |
 | 2022-10-20  | Binary reOrder      | Vaelophis Nyx, then Kezethun     | abandoned |
 | 2022-10-22  | Shirni              | Quantumshark                     | abandoned |
-| 2022-12-08  | Altera              | EricD112                         | inactive* |
+| 2022-12-08  | Altera<sup>2</sup>  | EricD112                         | inactive  |
 | 2023-01-07  | Exporianes          | Kestrel1110                      | inactive  |
 | 2023-04-06  | Lupainian           | 3agleEmpire                      | abandoned |
 | 2023-05-16  | Mata                | Karirawri                        | inactive  |
 | 2023-07-05  | Adamas              | toilethinges, patch: Kestrel1110 | inactive  |
 | 2023-07-27  | AES Aben            | DarcyManoel                      | abandoned | 
 | 2023-07-27  | AES Fallen          | DarcyManoel                      | abandoned | 
-| 2024-09-12  | Searchers           | mOctave                          | inactive* |
+| 2024-09-12  | Searchers<sup>2</sup> | mOctave                          | inactive  |
 | 2025-10-23  | Irm                 | DarcyManoel                      | abandoned |
 
-* The author has not totally lost hope to continue one day
+(1) Blender and Gimp files for the Trin can be found in the mirrored [assets repo](https://github.com/LixiChronikouOriou/trinAssets).
+(2) The author has not totally lost hope to continue one day.
 
 Currently revival process is more or less ongoing for the material of:
 Altera, Eternals, (no name), Ertluk, Mata, Trin
