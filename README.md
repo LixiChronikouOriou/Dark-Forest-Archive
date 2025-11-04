@@ -12,7 +12,7 @@ There might be interesting species out there in the wild. Feel free to contact m
 |-------------|---------------------|----------------------------------|-----------|
 | 2016-08-17  | COTSA               | Hondolor                         | inactive  |
 | 2017-02-02  | The Forgotten       | Startome                         | inactive  |
-| 2017-07-14  | Trin                | Elyssaen                         | inactive  |
+| 2017-07-14  | Trin<sup>1</sup>    | Elyssaen                         | inactive  |
 | 2019-02-02  | Terrans             | TimCabbage                       | inactive  |
 | 2019-02-25  | Octyl               | Ferociousfeind                   | inactive  |
 | 2020-01-12  | Eternals            | Comnom                           | abandoned |
@@ -36,10 +36,10 @@ There might be interesting species out there in the wild. Feel free to contact m
 | 2024-09-12  | Searchers<sup>2</sup> | mOctave                          | inactive  |
 | 2025-10-23  | Irm                 | DarcyManoel                      | abandoned |
 
-(1) Blender and Gimp files for the Trin can be found in the mirrored [assets repo](https://github.com/LixiChronikouOriou/trinAssets).
+(1) Blender and Gimp files for the Trin can be found in the mirrored [assets repo](https://github.com/LixiChronikouOriou/trinAssets).<br>
 (2) The author has not totally lost hope to continue one day.
 
-Currently revival process is more or less ongoing for the material of:
+Currently revival process is more or less ongoing for the material of:<br>
 Altera, Eternals, (no name), Ertluk, Mata, Trin
 
 For further projects which will be included in the next time see `to add.txt`.
