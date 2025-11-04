@@ -1,0 +1,64 @@
+# ---------
+#   SALES
+# ---------
+
+shipyard "plugins"
+
+	"Sloop"
+	"Schooner"
+	"Yacht"
+	"Felucca"
+	"Monitor"
+	"Caravel"
+	"Fluyt"
+	"Trireme"
+	"Ironclad"
+
+
+outfitter "plugins"
+
+	"Rapier Laser"
+	"Rapier Laser Turret"
+	"Broadsword Laser"
+	"Broadsword Laser Turret"
+	"Buckler Anti-Missile"
+	"Kiteshield Anti-Missile"
+	"Divine Light"
+	"Trebuchet Cannon"
+	"Ballista Cannon Turret"
+	"Arbalest Cannon"
+
+	"Traveler Drive"
+	"Knight Drive"
+	"Water Spirit Cooler"
+	"Ice Spirit Cooler"
+	"Palisade Shield Generator"
+	"Rampart Shield Generator"
+	"Fortress Shield Generator"
+	"Pond Hull Plating"
+	"Lake Hull Plating"
+	"Garden Fuel Processor"
+	"Farm Fuel Processor"
+	"Pantry Fuel Tank"
+	"Silo Fuel Tank"
+	"Divinity Core"
+	"Cargo Bunk Module"
+
+	"Quail Reactor"
+	"Boar Reactor"
+	"Elk Reactor"
+	"Purse Flywheel"
+	"Strongbox Flywheel"
+	"Chest Flywheel"
+
+	"Chicken Thruster"
+	"Goat Thruster"
+	"Donkey Thruster"
+	"Horse Thruster"
+	"Chicken Steering"
+	"Goat Steering"
+	"Donkey Steering"
+	"Horse Steering"
+
+	"Unexceptional Stone"
+
