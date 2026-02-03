@@ -34,6 +34,7 @@ There might be interesting species out there in the wild. Feel free to contact m
 | 2023-07-27  | AES Aben            | DarcyManoel                      | abandoned | 
 | 2023-07-27  | AES Fallen          | DarcyManoel                      | abandoned | 
 | 2024-09-12  | Searchers<sup>2</sup> | mOctave                          | inactive  |
+| 2025-02-22  | Xapleaux<sup>2</sup> | MasterOfGrey                     | inactive  |
 | 2025-10-23  | Irm                 | DarcyManoel                      | abandoned |
 
 (1) Blender and Gimp files for the Trin can be found in the mirrored [assets repo](https://github.com/LixiChronikouOriou/trinAssets).<br>

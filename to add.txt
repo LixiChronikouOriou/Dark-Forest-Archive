@@ -1,4 +1,3 @@
-﻿Xapleaux : https://github.com/endless-sky/endless-sky/pull/6439
 Vivari
 Avernals
 Pleiades Wanderers : https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PugGalaxyContent
